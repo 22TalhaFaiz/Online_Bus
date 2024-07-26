@@ -36,9 +36,9 @@ namespace WebApplication7
         }
 
         [HttpPost]
-        public IActionResult Signup(string username, string email, string password,string contact)
+        public IActionResult Signup(string username, string email, string contact,string password)
         {
-            Users data = new Users(0, username, email, password, contact,3);
+            Users data = new Users(0, username, email, contact, password,3);
             conn.Users.Add(data);
             conn.SaveChanges();
             return View();
@@ -46,14 +46,20 @@ namespace WebApplication7
 
         public IActionResult Login()
         {
+            
             return View();
         }
 
         [HttpPost]
         public IActionResult Login(string email,string password)
         {
-
-            return View();
+            var result = conn.Users.Any(x => x.Email == email && x.Password == password);
+            if (result)
+            {
+                var data = conn.Users.Where(x => x.Email == email && x.Password == password).FirstOrDefault();
+            }
+            return View("Index");
+            
         }
 
 
