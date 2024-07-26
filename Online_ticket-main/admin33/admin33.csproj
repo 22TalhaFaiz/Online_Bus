@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\bootstrap.css" />
+    <None Include="wwwroot\assets\css\custom.css" />
+    <None Include="wwwroot\assets\css\font-awesome.css" />
+    <None Include="wwwroot\assets\font-awesome\fonts\fontawesome-webfontba72.eot" />
+    <None Include="wwwroot\assets\font-awesome\fonts\fontawesome-webfontba72.svg" />
+    <None Include="wwwroot\assets\font-awesome\fonts\fontawesome-webfontba72.ttf" />
+    <None Include="wwwroot\assets\font-awesome\fonts\fontawesome-webfontba72.woff" />
+    <None Include="wwwroot\assets\font-awesome\fonts\fontawesome-webfontd41d.eot" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regulard41d.eot" />
+    <None Include="wwwroot\assets\img\1.png" />
+    <None Include="wwwroot\assets\img\2.png" />
+    <None Include="wwwroot\assets\img\3.png" />
+    <None Include="wwwroot\assets\img\4.png" />
+    <None Include="wwwroot\assets\img\find_user.png" />
+    <None Include="wwwroot\assets\js\bootstrap.min.js" />
+    <None Include="wwwroot\assets\js\custom.js" />
+    <None Include="wwwroot\assets\js\dataTables\dataTables.bootstrap.css" />
+    <None Include="wwwroot\assets\js\dataTables\dataTables.bootstrap.js" />
+    <None Include="wwwroot\assets\js\dataTables\jquery.dataTables.js" />
+    <None Include="wwwroot\assets\js\jquery-1.10.2.js" />
+    <None Include="wwwroot\assets\js\jquery.metisMenu.js" />
+    <None Include="wwwroot\assets\js\morris\morris-0.4.3.min.css" />
+    <None Include="wwwroot\assets\js\morris\morris.js" />
+    <None Include="wwwroot\assets\js\morris\raphael-2.1.0.min.js" />
+  </ItemGroup>
+
+</Project>

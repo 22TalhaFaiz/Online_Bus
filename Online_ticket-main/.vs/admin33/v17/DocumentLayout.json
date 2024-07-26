@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\project\\Online_ticket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|c:\\project\\online_ticket\\admin33\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|C:\\project\\Online_ticket\\admin33\\views\\shared\\.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\views\\shared\\.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|C:\\project\\Online_ticket\\admin33\\binary admin free website template - free-css.com\\bs-binary-admin\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\binary admin free website template - free-css.com\\bs-binary-admin\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|C:\\project\\Online_ticket\\admin33\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|C:\\project\\Online_ticket\\admin33\\binary admin free website template - free-css.com\\bs-binary-admin\\blank.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\binary admin free website template - free-css.com\\bs-binary-admin\\blank.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|C:\\project\\Online_ticket\\admin33\\views\\home\\ui.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\views\\home\\ui.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|C:\\project\\Online_ticket\\admin33\\binary admin free website template - free-css.com\\bs-binary-admin\\chart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\binary admin free website template - free-css.com\\bs-binary-admin\\chart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|C:\\project\\Online_ticket\\admin33\\views\\home\\table.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\views\\home\\table.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|C:\\project\\Online_ticket\\admin33\\views\\home\\tab-panel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\views\\home\\tab-panel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|C:\\project\\Online_ticket\\admin33\\views\\home\\blank.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\views\\home\\blank.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|C:\\project\\Online_ticket\\admin33\\views\\home\\chart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\views\\home\\chart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|C:\\project\\Online_ticket\\admin33\\views\\home\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\views\\home\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "chart.html",
+              "DocumentMoniker": "C:\\project\\Online_ticket\\admin33\\Binary Admin Free Website Template - Free-CSS.com\\bs-binary-admin\\chart.html",
+              "RelativeDocumentMoniker": "admin33\\Binary Admin Free Website Template - Free-CSS.com\\bs-binary-admin\\chart.html",
+              "ToolTip": "C:\\project\\Online_ticket\\admin33\\Binary Admin Free Website Template - Free-CSS.com\\bs-binary-admin\\chart.html",
+              "RelativeToolTip": "admin33\\Binary Admin Free Website Template - Free-CSS.com\\bs-binary-admin\\chart.html",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-24T13:59:23.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "blank.html",
+              "DocumentMoniker": "C:\\project\\Online_ticket\\admin33\\Binary Admin Free Website Template - Free-CSS.com\\bs-binary-admin\\blank.html",
+              "RelativeDocumentMoniker": "admin33\\Binary Admin Free Website Template - Free-CSS.com\\bs-binary-admin\\blank.html",
+              "ToolTip": "C:\\project\\Online_ticket\\admin33\\Binary Admin Free Website Template - Free-CSS.com\\bs-binary-admin\\blank.html",
+              "RelativeToolTip": "admin33\\Binary Admin Free Website Template - Free-CSS.com\\bs-binary-admin\\blank.html",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAywIAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-24T13:59:23.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\project\\Online_ticket\\admin33\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "admin33\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\project\\Online_ticket\\admin33\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "admin33\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T13:59:25.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".cshtml",
+              "DocumentMoniker": "C:\\project\\Online_ticket\\admin33\\Views\\Shared\\.cshtml",
+              "RelativeDocumentMoniker": "admin33\\Views\\Shared\\.cshtml",
+              "ToolTip": "C:\\project\\Online_ticket\\admin33\\Views\\Shared\\.cshtml",
+              "RelativeToolTip": "admin33\\Views\\Shared\\.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T13:59:26.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\project\\Online_ticket\\admin33\\Binary Admin Free Website Template - Free-CSS.com\\bs-binary-admin\\index.html",
+              "RelativeDocumentMoniker": "admin33\\Binary Admin Free Website Template - Free-CSS.com\\bs-binary-admin\\index.html",
+              "ToolTip": "C:\\project\\Online_ticket\\admin33\\Binary Admin Free Website Template - Free-CSS.com\\bs-binary-admin\\index.html",
+              "RelativeToolTip": "admin33\\Binary Admin Free Website Template - Free-CSS.com\\bs-binary-admin\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-24T13:59:26.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "admin33\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "admin33\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T13:59:26.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ui.cshtml",
+              "DocumentMoniker": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\ui.cshtml",
+              "RelativeDocumentMoniker": "admin33\\Views\\Home\\ui.cshtml",
+              "ToolTip": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\ui.cshtml",
+              "RelativeToolTip": "admin33\\Views\\Home\\ui.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T13:59:26.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "tab-panel.cshtml",
+              "DocumentMoniker": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\tab-panel.cshtml",
+              "RelativeDocumentMoniker": "admin33\\Views\\Home\\tab-panel.cshtml",
+              "ToolTip": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\tab-panel.cshtml",
+              "RelativeToolTip": "admin33\\Views\\Home\\tab-panel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T13:59:26.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "table.cshtml",
+              "DocumentMoniker": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\table.cshtml",
+              "RelativeDocumentMoniker": "admin33\\Views\\Home\\table.cshtml",
+              "ToolTip": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\table.cshtml",
+              "RelativeToolTip": "admin33\\Views\\Home\\table.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T13:59:26.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "form.cshtml",
+              "DocumentMoniker": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\form.cshtml",
+              "RelativeDocumentMoniker": "admin33\\Views\\Home\\form.cshtml",
+              "ToolTip": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\form.cshtml",
+              "RelativeToolTip": "admin33\\Views\\Home\\form.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T13:59:26.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "chart.cshtml",
+              "DocumentMoniker": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\chart.cshtml",
+              "RelativeDocumentMoniker": "admin33\\Views\\Home\\chart.cshtml",
+              "ToolTip": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\chart.cshtml",
+              "RelativeToolTip": "admin33\\Views\\Home\\chart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T13:59:26.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "blank.cshtml",
+              "DocumentMoniker": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\blank.cshtml",
+              "RelativeDocumentMoniker": "admin33\\Views\\Home\\blank.cshtml",
+              "ToolTip": "C:\\project\\Online_ticket\\admin33\\Views\\Home\\blank.cshtml",
+              "RelativeToolTip": "admin33\\Views\\Home\\blank.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T13:59:26.94Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
