@@ -58,16 +58,7 @@ namespace WebApplication7
             {
                 var data = conn.Users.Where(x => x.Email == email && x.Password == password).FirstOrDefault();
 
-                if (data != null)
-                {
-                    HttpContext.Session.SetString("abc", data.Username);
-
-                    var name = HttpContext.Session.GetString("abc");
-
-                    ViewBag.name = name;
-                    return View("confirm");
-                }
-
+               
 
             }
 
