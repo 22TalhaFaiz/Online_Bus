@@ -41,7 +41,7 @@ namespace WebApplication7
             Users data = new Users(0, username, email, contact, password,3);
             conn.Users.Add(data);
             conn.SaveChanges();
-            return View();
+            return View("Login");
         }
 
         public IActionResult Login()
@@ -58,7 +58,8 @@ namespace WebApplication7
             {
                 var data = conn.Users.Where(x => x.Email == email && x.Password == password).FirstOrDefault();
 
-               
+            return View("Confirm");
+
 
             }
 
@@ -77,6 +78,11 @@ namespace WebApplication7
             return View();
         }
 
+        public IActionResult Confirm()
+        {
+
+            return View();
+        }
 
 
     }
