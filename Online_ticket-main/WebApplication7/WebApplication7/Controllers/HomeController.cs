@@ -51,16 +51,29 @@ namespace WebApplication7
         }
 
         [HttpPost]
-        public IActionResult Login(string email,string password)
+        public IActionResult Login(string email, string password)
         {
             var result = conn.Users.Any(x => x.Email == email && x.Password == password);
             if (result)
             {
                 var data = conn.Users.Where(x => x.Email == email && x.Password == password).FirstOrDefault();
+
+                if (data != null)
+                {
+                    HttpContext.Session.SetString("abc", data.Username);
+
+                    var name = HttpContext.Session.GetString("abc");
+
+                    ViewBag.name = name;
+                    return View("confirm");
+                }
+
+
             }
-            return View("Index");
-            
+
+            return View("Signup");
         }
+
 
 
 

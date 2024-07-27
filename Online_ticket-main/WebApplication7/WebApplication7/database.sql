@@ -38,10 +38,11 @@ CREATE TABLE Users (
     user_id INT PRIMARY KEY identity(1,1),
     username VARCHAR(50) NOT NULL,
     email VARCHAR(100) NOT NULL,
-    password VARCHAR(255) NOT NULL,
 	contact VARCHAR(100) NOT NULL,
+    password VARCHAR(255) NOT NULL,
     role VARCHAR(20) NOT NULL
 );
+select*from Users;
 
 CREATE TABLE Reservations (
     reservation_id INT PRIMARY KEY identity(1,1),
