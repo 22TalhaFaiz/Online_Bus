@@ -57,13 +57,14 @@ namespace WebApplication7
             if (result)
             {
                 var data = conn.Users.Where(x => x.Email == email && x.Password == password).FirstOrDefault();
-
             return View("Confirm");
 
+            
 
             }
+           
+            return View();
 
-            return View("Signup");
         }
 
 
