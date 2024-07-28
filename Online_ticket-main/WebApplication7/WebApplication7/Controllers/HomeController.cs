@@ -1,7 +1,6 @@
 ﻿using System.Diagnostics;
-
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Http;
 using WebApplication7.Models;
 
 
@@ -29,8 +28,13 @@ namespace WebApplication7
         {
             return View();
         }
+		public IActionResult Confirm()
+		{
 
-        public IActionResult Signup()
+			return View();
+		}
+
+		public IActionResult Signup()
         {
             return View();
         }
@@ -57,14 +61,25 @@ namespace WebApplication7
             if (result)
             {
                 var data = conn.Users.Where(x => x.Email == email && x.Password == password).FirstOrDefault();
-            return View("Confirm");
+                if (data != null)
+                {
 
-            
 
+                    if (data.role == 3)
+                    {
+                        return RedirectToAction("Confirm");
+                    }
+                    else
+                    {
+                        HttpContext.Session.SetString("abc", data.Username);
+                        var name = HttpContext.Session.GetString("abc");
+                        ViewBag.name = name;
+                        return View("Index");
+                    }
+
+                }
             }
-           
             return View();
-
         }
 
 
@@ -79,11 +94,7 @@ namespace WebApplication7
             return View();
         }
 
-        public IActionResult Confirm()
-        {
-
-            return View();
-        }
+       
 
 
     }
