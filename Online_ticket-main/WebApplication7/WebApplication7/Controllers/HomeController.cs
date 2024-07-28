@@ -2,6 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using WebApplication7.Models;
+using System.Net.Mail;
+using System.Net;
+using System.Xml.Linq;
 
 
 namespace WebApplication7
@@ -45,7 +48,16 @@ namespace WebApplication7
             Users data = new Users(0, username, email, contact, password,3);
             conn.Users.Add(data);
             conn.SaveChanges();
-            return View("Login");
+
+            Random code = new Random();
+            int otp = code.Next(100000, 999999);
+
+
+
+			string body = $"<h2>welcome {username}</h2> <p>confirm code:{otp}</p>";
+			SendEmail(email, "check email", body);
+
+			return View("Login");
         }
 
         public IActionResult Login()
@@ -82,7 +94,20 @@ namespace WebApplication7
             return View();
         }
 
+        public void SendEmail(string ToMail , string subject,string body)
+        {
+            var mail = new MailMessage();
+            mail.To.Add(ToMail);
+            mail.From = new MailAddress("muhammadasfahan689@gmail.com");
+            mail.Subject = subject;
+            mail.Body = body;
+            mail.IsBodyHtml = true;
 
+			var smtp = new SmtpClient("smtp.gmail.com", 587);
+			smtp.Credentials = new NetworkCredential("muhammadasfahan689@gmail.com", "msao nugc sycc qzly");
+			smtp.EnableSsl = true;
+			smtp.Send(mail);
+		}
 
 
         public IActionResult About()
