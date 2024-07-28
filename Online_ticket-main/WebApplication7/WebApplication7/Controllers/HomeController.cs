@@ -31,10 +31,21 @@ namespace WebApplication7
         {
             return View();
         }
-		public IActionResult Confirm()
+		public IActionResult Confirm(int code)
 		{
-
-			return View();
+            var codes = Convert.ToInt32(HttpContext.Session.GetString("code"));
+            if (codes == code)
+            {
+                var users = conn.Users.FirstOrDefault(def => def.User_id == Convert.ToInt32("id"));
+                users.role = 3;
+                conn.SaveChanges();
+                return View("index");
+            }
+            else
+            {
+                
+            return View();
+            }
 		}
 
 		public IActionResult Signup()
@@ -45,12 +56,15 @@ namespace WebApplication7
         [HttpPost]
         public IActionResult Signup(string username, string email, string contact,string password)
         {
-            Users data = new Users(0, username, email, contact, password,3);
+            Users data = new Users(0, username, email, contact, password,0);
             conn.Users.Add(data);
             conn.SaveChanges();
 
             Random code = new Random();
             int otp = code.Next(100000, 999999);
+
+            HttpContext.Session.SetString("code", otp.ToString());
+            HttpContext.Session.SetString("id", data.User_id.ToString());
 
 
 
