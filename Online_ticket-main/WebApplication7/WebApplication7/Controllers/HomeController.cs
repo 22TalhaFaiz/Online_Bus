@@ -15,6 +15,7 @@ namespace WebApplication7
 
         public IActionResult Index()
         {
+            TempData["name"] = HttpContext.Session.GetString("abc");
             return View();
         }
 
@@ -39,7 +40,7 @@ namespace WebApplication7
                 var users = conn.Users.FirstOrDefault(def => def.User_id == Convert.ToInt32("id"));
                 users.role = 3;
                 conn.SaveChanges();
-                return View("index");
+                return View("Confirm");
             }
             else
             {
@@ -71,7 +72,7 @@ namespace WebApplication7
 			string body = $"<h2>welcome {username}</h2> <p>confirm code:{otp}</p>";
 			SendEmail(email, "check email", body);
 
-			return View("Login");
+			return View("Confirm");
         }
 
         public IActionResult Login()
@@ -91,17 +92,13 @@ namespace WebApplication7
                 {
 
 
-                    if (data.role == 3)
-                    {
-                        return RedirectToAction("Confirm");
-                    }
-                    else
-                    {
-                        HttpContext.Session.SetString("abc", data.Username);
-                        var name = HttpContext.Session.GetString("abc");
-                        ViewBag.name = name;
-                        return View("Index");
-                    }
+                   
+                    HttpContext.Session.SetString("abc", data.Username);
+                    
+                    return RedirectToAction("Index");
+
+
+
 
                 }
             }
@@ -118,7 +115,7 @@ namespace WebApplication7
             mail.IsBodyHtml = true;
 
 			var smtp = new SmtpClient("smtp.gmail.com", 587);
-			smtp.Credentials = new NetworkCredential("muhammadasfahan689@gmail.com", "msao nugc sycc qzly");
+			smtp.Credentials = new NetworkCredential("muhammadasfahan689@gmail.com", "jyzo eciq hqmf ttdx");
 			smtp.EnableSsl = true;
 			smtp.Send(mail);
 		}
