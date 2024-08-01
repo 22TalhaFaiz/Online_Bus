@@ -24,15 +24,18 @@
                     <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Transport">Our Transport</a>
                 </li> *@
 
+
+                @* chatgpt code dropdown *@
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Our transport
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        @foreach (var categories in ViewBag.categories)
+                        @foreach (var category in ViewBag.categories)
                         {
-                            <a class="dropdown-item" href="@Url.Action("Category", "Home", new { id = categories.Cat_id })">
-                                @categories.Cat_name
+                            <a class="dropdown-item" href="@Url.Action("Category", "Home", new { id = category.Cat_id })">
+                                @category.Cat_name
                             </a>
                         }
                     </div>

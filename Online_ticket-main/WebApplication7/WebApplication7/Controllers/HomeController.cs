@@ -5,6 +5,7 @@ using WebApplication7.Models;
 using System.Net.Mail;
 using System.Net;
 using System.Xml.Linq;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 
 namespace WebApplication7
@@ -22,10 +23,11 @@ namespace WebApplication7
         public IActionResult Header()
         {
 			// Fetch categories from the database
-			var categories = conn.categories.ToList();
+			
+            List<categories> Categories = conn.categories.ToList();
 
 			// Pass the data to the view using ViewBag, ViewData, or TempData
-			ViewBag.categories = categories;
+			ViewBag.categories = new SelectList(Categories); 
 
 			return View();
 		}
