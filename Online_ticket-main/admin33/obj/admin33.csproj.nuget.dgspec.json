@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\project\\Online_ticket\\admin33\\admin33.csproj": {}
+    "C:\\project\\Online_Bus\\Online_ticket-main\\admin33\\admin33.csproj": {}
   },
   "projects": {
-    "C:\\project\\Online_ticket\\admin33\\admin33.csproj": {
+    "C:\\project\\Online_Bus\\Online_ticket-main\\admin33\\admin33.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\Online_ticket\\admin33\\admin33.csproj",
+        "projectUniqueName": "C:\\project\\Online_Bus\\Online_ticket-main\\admin33\\admin33.csproj",
         "projectName": "admin33",
-        "projectPath": "C:\\project\\Online_ticket\\admin33\\admin33.csproj",
+        "projectPath": "C:\\project\\Online_Bus\\Online_ticket-main\\admin33\\admin33.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\Online_ticket\\admin33\\obj\\",
+        "outputPath": "C:\\project\\Online_Bus\\Online_ticket-main\\admin33\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
