@@ -1,5 +1,16 @@
 create database online_bus;
 use online_bus;
+ 
+CREATE TABLE categories(
+Cat_id int primary key identity(1,1),
+Cat_name varchar (200),
+);
+insert into   categories values
+('Daewoo Express'),
+('Faisal Movers'),
+('Niazi Express');
+
+select * from categories;
 
 CREATE TABLE Buses (
     bus_id INT PRIMARY KEY identity(1,1),
