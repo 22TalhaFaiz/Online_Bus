@@ -21,8 +21,14 @@ namespace WebApplication7
 
         public IActionResult Header()
         {
-            return View();
-        }
+			// Fetch categories from the database
+			var categories = conn.categories.ToList();
+
+			// Pass the data to the view using ViewBag, ViewData, or TempData
+			ViewBag.categories = categories;
+
+			return View();
+		}
 
         public IActionResult Footer()
         {
