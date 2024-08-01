@@ -6,6 +6,7 @@ using System.Net.Mail;
 using System.Net;
 using System.Xml.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Reflection.Metadata.Ecma335;
 
 
 namespace WebApplication7
@@ -22,15 +23,9 @@ namespace WebApplication7
 
         public IActionResult Header()
         {
-			// Fetch categories from the database
-			
-            List<categories> Categories = conn.categories.ToList();
-
-			// Pass the data to the view using ViewBag, ViewData, or TempData
-			ViewBag.categories = new SelectList(Categories); 
-
-			return View();
-		}
+            return View();
+        }
+    
 
         public IActionResult Footer()
         {
