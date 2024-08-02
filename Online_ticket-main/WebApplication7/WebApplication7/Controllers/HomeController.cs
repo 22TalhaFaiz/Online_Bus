@@ -7,16 +7,33 @@ using System.Net;
 using System.Xml.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Reflection.Metadata.Ecma335;
+using WebApplication7.Services;
 
 
 namespace WebApplication7
 {
+
     public class HomeController : Controller
     {
+        private readonly CategoryService _categoryService;
         connection conn = new connection();
+        // Constructor for dependency injection
+        public HomeController(CategoryService categoryService)
+        {
+            _categoryService = categoryService ?? throw new ArgumentNullException(nameof(categoryService));
+        }
 
+        // Index action method
         public IActionResult Index()
         {
+            if (_categoryService == null)
+            {
+                // Log or handle the situation where _categoryService is null
+                return StatusCode(500, "CategoryService is not initialized.");
+            }
+
+            var categories = _categoryService.GetCategories();
+            ViewBag.categories = categories ?? new List<Category>(); // Initialize to an empty list if null
             TempData["name"] = HttpContext.Session.GetString("abc");
             return View();
         }
