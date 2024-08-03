@@ -25,7 +25,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Binary admin</a>
+                <a class="navbar-brand" href="index.html">Admin</a>
             </div>
             <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;">
                 Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-danger square-btn-adjust">Logout</a>
@@ -36,13 +36,14 @@
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
                     <li class="text-center">
-                        <img src="~/assets/img/find_user.png" class="user-image img-responsive" />
+                        <img src="~/assets2/img/find_user.png" class="user-image img-responsive" />
                     </li>
-                    <li class="nav-item">
+                   @*  <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="user_detail"><i class="fa fa-user fa-3x"></i>Detail</a>
-                    </li>
-                    <li>
-                        <a href="ui.html"><i class="fa fa-User fa-3x"></i> User detail</a>
+                    </li> *@
+                  
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="user_detail">detail</a>
                     </li>
                     <li>
                         <a href="tab-panel.html"><i class="fa fa-qrcode fa-3x"></i> Tabs & Panels</a>

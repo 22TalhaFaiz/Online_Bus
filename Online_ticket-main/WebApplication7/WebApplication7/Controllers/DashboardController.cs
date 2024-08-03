@@ -20,7 +20,7 @@ namespace WebApplication7.Controllers
         {
             return View();
         }
-        public IActionResult User_detail()
+        public IActionResult Viewdata()
         {
             return View();
         }
