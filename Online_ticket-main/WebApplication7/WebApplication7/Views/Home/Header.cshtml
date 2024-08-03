@@ -20,34 +20,30 @@
                 <li class="nav-item">
                     <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Pricing">Pricing</a>
                 </li>
-               @*  <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Transport">Our Transport</a>
-                </li> *@
 
-
-                @* chatgpt code dropdown *@
-
+                <!-- Dynamic Transport Dropdown -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Our transport
+                        Our Transport
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        @foreach (var category in ViewBag.categories)
+                        @if (ViewBag.categories != null)
                         {
-                            <a class="dropdown-item" href="@Url.Action("Category", "Home", new { id = category.Cat_id })">
-                                @category.Cat_name
-                            </a>
+                            foreach (var category in ViewBag.categories)
+                            {
+                                <a class="dropdown-item" href="@Url.Action("Category", "Home", new { id = category.Cat_id })">
+                                    @category.Cat_name
+                                </a>
+                            }
+                        }
+                        else
+                        {
+                            <a class="dropdown-item">No categories available</a>
                         }
                     </div>
                 </li>
 
-
-
-
-
-
-
-
+                <!-- User Authentication Dropdown -->
                 @if (!string.IsNullOrEmpty(username))
                 {
                     <li class="nav-item dropdown">
