@@ -6,7 +6,7 @@ namespace WebApplication7.Controllers
     public class DashboardController : Controller
     {
         connection conn = new connection();
-        
+
         public IActionResult AdminIndex()
         {
             return View();
@@ -21,6 +21,10 @@ namespace WebApplication7.Controllers
             return View();
         }
         public IActionResult Viewdata()
+        {
+            return View();
+        }
+        public IActionResult AdminLogin()
         {
             return View();
         }
