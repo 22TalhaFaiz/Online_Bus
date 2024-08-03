@@ -21,6 +21,8 @@ CREATE TABLE Buses (
 );
 
 
+
+
 CREATE TABLE Route (
     route_id INT PRIMARY KEY identity(1,1),
     origin VARCHAR(50) NOT NULL,
