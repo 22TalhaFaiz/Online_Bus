@@ -2,12 +2,17 @@ using WebApplication7.Data;
 using WebApplication7.Services;
 using Microsoft.EntityFrameworkCore; // Add this namespace for EF Core
 using static WebApplication7.Data.Application;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure DbContext with SQL Server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer("Server=.;Database=online_bus;User Id=sa;password=aptech; TrustServerCertificate=True;"));
+    //options.UseSqlServer("Server=.;Database=online_bus;User Id=sa;password=aptech; TrustServerCertificate=True;"));
+options.UseSqlServer("Server=DESKTOP-KL71KR7\\SQLEXPRESS;Database= online_bus;Integrated Security=true"));
+
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

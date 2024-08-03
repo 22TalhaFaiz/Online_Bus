@@ -1,823 +1,1139 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication7.bundle.scp.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication7.bundle.scp.css",
       "PackagePath": "staticwebassets\\WebApplication7.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\favicon.ico",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\css\\custom.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\font-awesome\\fonts\\fontawesome-webfontba72.eot",
+      "PackagePath": "staticwebassets\\assets2\\font-awesome\\fonts\\fontawesome-webfontba72.eot"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\font-awesome\\fonts\\fontawesome-webfontba72.svg",
+      "PackagePath": "staticwebassets\\assets2\\font-awesome\\fonts\\fontawesome-webfontba72.svg"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\font-awesome\\fonts\\fontawesome-webfontba72.ttf",
+      "PackagePath": "staticwebassets\\assets2\\font-awesome\\fonts\\fontawesome-webfontba72.ttf"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\font-awesome\\fonts\\fontawesome-webfontba72.woff",
+      "PackagePath": "staticwebassets\\assets2\\font-awesome\\fonts\\fontawesome-webfontba72.woff"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\assets2\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\fonts\\glyphicons-halflings-regulard41d.eot",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\glyphicons-halflings-regulard41d.eot"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\img\\1.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\1.png"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\img\\2.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\2.png"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\img\\3.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\3.png"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\img\\4.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\4.png"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\img\\find_user.png",
+      "PackagePath": "staticwebassets\\assets2\\img\\find_user.png"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\js\\dataTables\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\assets2\\js\\dataTables\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\js\\dataTables\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\dataTables\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\js\\dataTables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\dataTables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\js\\jquery-1.10.2.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\jquery-1.10.2.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\js\\jquery.metisMenu.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\jquery.metisMenu.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\js\\morris\\morris-0.4.3.min.css",
+      "PackagePath": "staticwebassets\\assets2\\js\\morris\\morris-0.4.3.min.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\js\\morris\\morris.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\morris\\morris.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\assets2\\js\\morris\\raphael-2.1.0.min.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\morris\\raphael-2.1.0.min.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\.DS_Store",
-      "PackagePath": "staticwebassets\\fonts\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\.DS_Store",
-      "PackagePath": "staticwebassets\\fonts\\flaticon\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\backup.txt",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\backup.txt",
       "PackagePath": "staticwebassets\\fonts\\flaticon\\backup.txt"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\Flaticon.eot",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\Flaticon.eot",
       "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\Flaticon.svg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\Flaticon.svg",
       "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\Flaticon.ttf",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\Flaticon.ttf",
       "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\Flaticon.woff",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\Flaticon.woff",
       "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\Flaticon.woff2",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\Flaticon.woff2",
       "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.woff2"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\_flaticon.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\_flaticon.scss",
       "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\_flaticon.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\flaticon.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\flaticon.css",
       "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\flaticon.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\flaticon.html",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\font\\flaticon.html",
       "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\flaticon.html"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\license\\license.pdf",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\flaticon\\license\\license.pdf",
       "PackagePath": "staticwebassets\\fonts\\flaticon\\license\\license.pdf"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\icomoon\\icomoon.eot",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\icomoon\\icomoon.eot",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\icomoon\\icomoon.svg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\icomoon\\icomoon.svg",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\icomoon\\icomoon.ttf",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\icomoon\\icomoon.ttf",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\icomoon\\icomoon.woff",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\icomoon\\icomoon.woff",
       "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\css\\_ionicons.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\css\\_ionicons.scss",
       "PackagePath": "staticwebassets\\fonts\\ionicons\\css\\_ionicons.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\css\\ionicons.min.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\css\\ionicons.min.css",
       "PackagePath": "staticwebassets\\fonts\\ionicons\\css\\ionicons.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\fonts\\.DS_Store",
-      "PackagePath": "staticwebassets\\fonts\\ionicons\\fonts\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.eot",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.eot",
       "PackagePath": "staticwebassets\\fonts\\ionicons\\fonts\\ionicons.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.svg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.svg",
       "PackagePath": "staticwebassets\\fonts\\ionicons\\fonts\\ionicons.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.ttf",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.ttf",
       "PackagePath": "staticwebassets\\fonts\\ionicons\\fonts\\ionicons.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.woff",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.woff",
       "PackagePath": "staticwebassets\\fonts\\ionicons\\fonts\\ionicons.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.woff2",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.woff2",
       "PackagePath": "staticwebassets\\fonts\\ionicons\\fonts\\ionicons.woff2"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\open-iconic\\open-iconic.eot",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\open-iconic\\open-iconic.eot",
       "PackagePath": "staticwebassets\\fonts\\open-iconic\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\open-iconic\\open-iconic.otf",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\open-iconic\\open-iconic.otf",
       "PackagePath": "staticwebassets\\fonts\\open-iconic\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\open-iconic\\open-iconic.svg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\open-iconic\\open-iconic.svg",
       "PackagePath": "staticwebassets\\fonts\\open-iconic\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\open-iconic\\open-iconic.ttf",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\open-iconic\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\fonts\\open-iconic\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\open-iconic\\open-iconic.woff",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\fonts\\open-iconic\\open-iconic.woff",
       "PackagePath": "staticwebassets\\fonts\\open-iconic\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\.DS_Store",
-      "PackagePath": "staticwebassets\\images\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\about.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\about.jpg",
       "PackagePath": "staticwebassets\\images\\about.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\bg_1.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\bg_1.jpg",
       "PackagePath": "staticwebassets\\images\\bg_1.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\bg_2.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\bg_2.jpg",
       "PackagePath": "staticwebassets\\images\\bg_2.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-1.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-1.jpg",
       "PackagePath": "staticwebassets\\images\\car-1.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-10.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-10.jpg",
       "PackagePath": "staticwebassets\\images\\car-10.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-11.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-11.jpg",
       "PackagePath": "staticwebassets\\images\\car-11.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-12.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-12.jpg",
       "PackagePath": "staticwebassets\\images\\car-12.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-2.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-2.jpg",
       "PackagePath": "staticwebassets\\images\\car-2.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-3.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-3.jpg",
       "PackagePath": "staticwebassets\\images\\car-3.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-4.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-4.jpg",
       "PackagePath": "staticwebassets\\images\\car-4.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-5.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-5.jpg",
       "PackagePath": "staticwebassets\\images\\car-5.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-6.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-6.jpg",
       "PackagePath": "staticwebassets\\images\\car-6.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-7.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-7.jpg",
       "PackagePath": "staticwebassets\\images\\car-7.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-8.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-8.jpg",
       "PackagePath": "staticwebassets\\images\\car-8.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-9.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\car-9.jpg",
       "PackagePath": "staticwebassets\\images\\car-9.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\image_1.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\image_1.jpg",
       "PackagePath": "staticwebassets\\images\\image_1.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\image_2.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\image_2.jpg",
       "PackagePath": "staticwebassets\\images\\image_2.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\image_3.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\image_3.jpg",
       "PackagePath": "staticwebassets\\images\\image_3.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\image_4.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\image_4.jpg",
       "PackagePath": "staticwebassets\\images\\image_4.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\image_5.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\image_5.jpg",
       "PackagePath": "staticwebassets\\images\\image_5.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\image_6.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\image_6.jpg",
       "PackagePath": "staticwebassets\\images\\image_6.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\loc.png",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\loc.png",
       "PackagePath": "staticwebassets\\images\\loc.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\person_1.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\person_1.jpg",
       "PackagePath": "staticwebassets\\images\\person_1.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\person_2.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\person_2.jpg",
       "PackagePath": "staticwebassets\\images\\person_2.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\person_3.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\person_3.jpg",
       "PackagePath": "staticwebassets\\images\\person_3.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\person_4.jpg",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\person_4.jpg",
       "PackagePath": "staticwebassets\\images\\person_4.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\js\\site.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib2\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib2\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib2\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib2\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib2\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib2\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib2\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib2\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib2\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib2\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib2\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib2\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib2\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib2\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\.DS_Store",
-      "PackagePath": "staticwebassets\\scss\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\.DS_Store",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_alert.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_badge.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_breadcrumb.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_button-group.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_button-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_button-group.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_buttons.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_card.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_card.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_card.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_carousel.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_carousel.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_carousel.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_close.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_close.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_close.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_code.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_code.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_code.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_custom-forms.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_custom-forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_custom-forms.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_dropdown.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_dropdown.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_forms.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_functions.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_functions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_grid.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_images.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_images.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_images.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_input-group.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_input-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_input-group.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_jumbotron.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_jumbotron.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_jumbotron.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_list-group.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_media.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_media.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_media.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_mixins.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_mixins.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_modal.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_modal.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_modal.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_nav.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_nav.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_nav.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_navbar.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_navbar.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_pagination.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_popover.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_popover.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_popover.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_print.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_print.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_print.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_progress.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_progress.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_reboot.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_reboot.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_root.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_root.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_root.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_spinners.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_spinners.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_spinners.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_tables.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_tables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_toasts.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_toasts.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_toasts.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_tooltip.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_tooltip.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_tooltip.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_transitions.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_transitions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_transitions.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_type.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_type.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_type.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_utilities.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_variables.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\_variables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\bootstrap-grid.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-grid.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-reboot.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_alert.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_background-variant.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_background-variant.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_badge.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_caret.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_caret.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_float.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_float.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_float.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_forms.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_gradients.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_grid-framework.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_grid-framework.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_hover.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_hover.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_hover.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_image.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_image.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_lists.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_lists.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_nav-divider.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_nav-divider.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_resize.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_resize.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_screen-reader.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_screen-reader.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_size.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_size.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_size.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_table-row.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_table-row.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_text-hide.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-hide.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_transition.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_transition.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\mixins\\_visibility.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_visibility.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_align.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_align.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_align.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_background.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_background.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_background.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_borders.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_borders.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_borders.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_display.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_display.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_display.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_embed.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_embed.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_embed.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_flex.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_flex.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_flex.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_float.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_float.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_float.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_overflow.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_overflow.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_position.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_position.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_position.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_screenreaders.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_screenreaders.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_shadows.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_shadows.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_sizing.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_sizing.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_spacing.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_spacing.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_text.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_text.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\bootstrap\\utilities\\_visibility.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_visibility.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\style.scss",
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\scss\\style.scss",
       "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
