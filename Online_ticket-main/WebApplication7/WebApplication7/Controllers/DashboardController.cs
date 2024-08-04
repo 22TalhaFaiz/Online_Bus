@@ -39,7 +39,19 @@ namespace WebApplication7.Controllers
             if (result)
             {
                 var data = conn.Users.Where(x => x.Email == email && x.Password == password).FirstOrDefault();
+                if (data != null)
+                {
+
+
+
+                    HttpContext.Session.SetString("abc", data.Username);
                 return RedirectToAction("AdminIndex");
+
+
+
+
+
+                }
             }
             return View();
         }

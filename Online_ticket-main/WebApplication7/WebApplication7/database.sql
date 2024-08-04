@@ -56,9 +56,9 @@ CREATE TABLE Users (
     password VARCHAR(255), 
     role INT
 );
-
+TRUNCATE table  Users;
 select*from Users;
-delete Users where user_id =25;
+delete Users where user_id =2;
 
 
 CREATE TABLE Reservations (
