@@ -60,14 +60,13 @@ namespace WebApplication7
                 var users = conn.Users.FirstOrDefault(def => def.User_id == Convert.ToInt32("id"));
                 users.role = 3;
                 conn.SaveChanges();
-                return View("Confirm");
-            }
-            else
-            {
                 
-            return View();
+            return View("Login");
             }
+            return View("Login");
+                
 		}
+            
 
 		public IActionResult Signup()
         {
@@ -135,7 +134,7 @@ namespace WebApplication7
             mail.IsBodyHtml = true;
 
 			var smtp = new SmtpClient("smtp.gmail.com", 587);
-			smtp.Credentials = new NetworkCredential("muhammadasfahan689@gmail.com", "jyzo eciq hqmf ttdx");
+			smtp.Credentials = new NetworkCredential("muhammadasfahan689@gmail.com", "iqaw bdbb fngi kyqd");
 			smtp.EnableSsl = true;
 			smtp.Send(mail);
 		}

@@ -56,7 +56,10 @@ CREATE TABLE Users (
     password VARCHAR(255), 
     role INT
 );
+
 select*from Users;
+delete Users where user_id =25;
+
 
 CREATE TABLE Reservations (
     reservation_id INT PRIMARY KEY identity(1,1),

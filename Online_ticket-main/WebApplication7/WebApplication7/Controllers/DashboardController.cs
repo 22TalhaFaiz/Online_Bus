@@ -6,6 +6,7 @@ namespace WebApplication7.Controllers
 {
     public class DashboardController : Controller
     {
+
         connection conn = new connection();
 
         public IActionResult AdminIndex()
