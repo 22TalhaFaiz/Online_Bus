@@ -58,7 +58,7 @@ CREATE TABLE Users (
 );
 TRUNCATE table  Users;
 select*from Users;
-delete Users where user_id =2;
+
 
 
 CREATE TABLE Reservations (
