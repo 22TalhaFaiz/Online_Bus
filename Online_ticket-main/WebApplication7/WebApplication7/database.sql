@@ -47,7 +47,16 @@ CREATE TABLE Passengers (
     contact_number VARCHAR(15),
     Passenger_email VARCHAR(100)
 );
+create table Role(
+role_id int primary key identity(1,1),
+role_name varchar (200),
+);
+insert into Role values 
+('Admin'),
+('Employee'),
+('User');
 
+select * from Role;
 CREATE TABLE Users (
     user_id INT PRIMARY KEY identity(1,1),
     username VARCHAR(50) ,

@@ -57,42 +57,18 @@ namespace WebApplication7
             var codes = Convert.ToInt32(HttpContext.Session.GetString("code"));
             if (codes == code)
             {
-                var users = conn.Users.FirstOrDefault(def => def.User_id == Convert.ToInt32("id"));
+                var users = conn.Users.FirstOrDefault(def => def.User_id == Convert.ToInt32(HttpContext.Session.GetString("id")));
                 users.role = 3;
                 conn.SaveChanges();
                 
-            return View("Login");
             }
             return View("Login");
+            
                 
 		}
             
 
-		public IActionResult Signup()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult Signup(string username, string email, string contact,string password)
-        {
-            Users data = new Users(0, username, email, contact, password,0);
-            conn.Users.Add(data);
-            conn.SaveChanges();
-
-            Random code = new Random();
-            int otp = code.Next(100000, 999999);
-
-            HttpContext.Session.SetString("code", otp.ToString());
-            HttpContext.Session.SetString("id", data.User_id.ToString());
-
-
-
-			string body = $"<h2>welcome {username}</h2> <p>confirm code:{otp}</p>";
-			SendEmail(email, "check email", body);
-
-			return View("Confirm");
-        }
+		
 
         public IActionResult Login()
         {
@@ -124,20 +100,48 @@ namespace WebApplication7
             return View();
         }
 
-        public void SendEmail(string ToMail , string subject,string body)
-        {
-            var mail = new MailMessage();
-            mail.To.Add(ToMail);
-            mail.From = new MailAddress("muhammadasfahan689@gmail.com");
-            mail.Subject = subject;
-            mail.Body = body;
-            mail.IsBodyHtml = true;
 
-			var smtp = new SmtpClient("smtp.gmail.com", 587);
-			smtp.Credentials = new NetworkCredential("muhammadasfahan689@gmail.com", "qqnq bfxd srgo wvkt");
-			smtp.EnableSsl = true;
-			smtp.Send(mail);
-		}
+        public IActionResult Signup()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Signup(string username, string email, string contact, string password)
+        {
+            Users data = new Users(0, username, email, contact, password, 0);
+            conn.Users.Add(data);
+            conn.SaveChanges();
+
+            Random code = new Random();
+            int otp = code.Next(100000, 999999);
+
+            HttpContext.Session.SetString("code", otp.ToString());
+            HttpContext.Session.SetString("id", data.User_id.ToString());
+
+
+
+            string body = $"<h2>welcome {username}</h2> <p>confirm code:{otp}</p>";
+            SendEmail(email, "check email", body);
+
+            return View("Confirm");
+        }
+
+       
+        public void SendEmail(string ToEmail, string subject, string body)
+        {
+            var mail1 = new MailMessage();
+            mail1.To.Add(ToEmail);
+            mail1.From = new MailAddress("muhammadasfahan689@gmail.com");
+            mail1.Subject = subject;
+            mail1.Body = body;
+            mail1.IsBodyHtml = true;
+
+            var smtp = new SmtpClient("smtp.gmail.com", 587);
+            smtp.Credentials = new NetworkCredential("muhammadasfahan689@gmail.com", "zjiv xxvb zvww erlx");
+            smtp.EnableSsl = true;
+            smtp.Send(mail1);
+        }
 
 
         public IActionResult About()

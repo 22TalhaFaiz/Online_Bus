@@ -38,6 +38,7 @@
             {
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       
                         @Context.Session.GetString("abc")
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -115,7 +116,12 @@
         </div>
         <!-- /. PAGE WRAPPER  -->
     </div>
+
+
+
     @RenderBody()
+
+
     <!-- /. WRAPPER  -->
     <!-- SCRIPTS -AT THE BOTTOM TO REDUCE THE LOAD TIME -->
     <!-- JQUERY SCRIPTS -->
