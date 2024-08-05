@@ -134,7 +134,7 @@ namespace WebApplication7
             mail.IsBodyHtml = true;
 
 			var smtp = new SmtpClient("smtp.gmail.com", 587);
-			smtp.Credentials = new NetworkCredential("muhammadasfahan689@gmail.com", "iqaw bdbb fngi kyqd");
+			smtp.Credentials = new NetworkCredential("muhammadasfahan689@gmail.com", "jjlp rbyw mcyl oqng");
 			smtp.EnableSsl = true;
 			smtp.Send(mail);
 		}

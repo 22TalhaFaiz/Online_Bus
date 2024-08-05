@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿
+@model Users
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -27,9 +29,28 @@
                 </button>
                 <a class="navbar-brand" href="index.html">Admin</a>
             </div>
-            <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;">
+           @*  <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;">
                 Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-danger square-btn-adjust">Logout</a>
-            </div>
+            </div> *@
+
+ 
+            @if (!string.IsNullOrEmpty(Context.Session.GetString("abc")))
+            {
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        @Context.Session.GetString("abc")
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" asp-area="" asp-controller="Dashboard" asp-action="Logout">Logout</a>
+                    </div>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="AdminLogin">Login</a>
+                </li>
+            } 
         </nav>
         <!-- /. NAV TOP  -->
         <nav class="navbar-default navbar-side" role="navigation">
