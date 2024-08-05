@@ -20,22 +20,33 @@
                 <li class="nav-item">
                     <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Pricing">Pricing</a>
                 </li>
-                 <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Transport">Our Transport</a>
+
+                <!-- Dynamic Transport Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Our Transport
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        @if (ViewBag.categories != null)
+                        {
+                            foreach (var category in ViewBag.categories)
+                            {
+                                <a class="dropdown-item" href="@Url.Action("Category", "Home", new { id = category.Cat_id })">
+                                    @category.Cat_name
+                                </a>
+                            }
+                        }
+                        else
+                        {
+                            <a class="dropdown-item">No categories available</a>
+                        }
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="AdminIndex">dashboard</a>
+                    <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="AdminLogin">dashboard</a>
                 </li>
 
-
-
-
-
-
-
-
-
-
+                <!-- User Authentication Dropdown -->
                 @if (!string.IsNullOrEmpty(username))
                 {
                     <li class="nav-item dropdown">

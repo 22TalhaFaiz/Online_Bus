@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\project\\Online_Bus\\Online_ticket-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|c:\\project\\online_bus\\online_ticket-main\\admin33\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|C:\\project\\Online_Bus\\Online_ticket-main\\admin33\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|c:\\project\\online_bus\\online_ticket-main\\admin33\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|c:\\project\\online_bus\\online_ticket-main\\admin33\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBC41A41-168C-4FCE-BF00-5910FF5B9E49}|admin33\\admin33.csproj|solutionrelative:admin33\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\project\\Online_Bus\\Online_ticket-main\\admin33\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "admin33\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\project\\Online_Bus\\Online_ticket-main\\admin33\\Controllers\\HomeController.cs",
               "RelativeToolTip": "admin33\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABcAAAAoAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T15:35:14.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\project\\Online_Bus\\Online_ticket-main\\admin33\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "admin33\\Views\\Home\\Index.cshtml",

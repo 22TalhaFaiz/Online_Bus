@@ -13,7 +13,7 @@ namespace WebApplication7.Models
         }
 
         public DbSet<Users> Users { get; set; }
-		public DbSet<categories> categories  { get; set; }
+	
 
 	}
 }

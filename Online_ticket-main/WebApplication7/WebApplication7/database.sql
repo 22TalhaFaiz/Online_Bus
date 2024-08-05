@@ -21,6 +21,8 @@ CREATE TABLE Buses (
 );
 
 
+
+
 CREATE TABLE Route (
     route_id INT PRIMARY KEY identity(1,1),
     origin VARCHAR(50) NOT NULL,
@@ -54,7 +56,10 @@ CREATE TABLE Users (
     password VARCHAR(255), 
     role INT
 );
+TRUNCATE table  Users;
 select*from Users;
+delete Users where user_id =2;
+
 
 CREATE TABLE Reservations (
     reservation_id INT PRIMARY KEY identity(1,1),

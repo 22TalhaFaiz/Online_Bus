@@ -1,9 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebApplication7.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace WebApplication7.Controllers
 {
     public class DashboardController : Controller
     {
+
+        connection conn = new connection();
+
         public IActionResult AdminIndex()
         {
             return View();
@@ -17,8 +22,37 @@ namespace WebApplication7.Controllers
         {
             return View();
         }
-        public IActionResult User_detail()
+        public IActionResult Viewdata()
         {
+            return View();
+        }
+        public IActionResult AdminLogin()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AdminLogin(string email , string password)
+        {
+
+            var result = conn.Users.Any(x => x.Email == email && x.Password == password);
+            if (result)
+            {
+                var data = conn.Users.Where(x => x.Email == email && x.Password == password).FirstOrDefault();
+                if (data != null)
+                {
+
+
+
+                    HttpContext.Session.SetString("abc", data.Username);
+                return RedirectToAction("AdminIndex");
+
+
+
+
+
+                }
+            }
             return View();
         }
     }
