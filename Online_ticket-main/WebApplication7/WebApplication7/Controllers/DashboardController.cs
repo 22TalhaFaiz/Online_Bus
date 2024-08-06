@@ -26,6 +26,13 @@ namespace WebApplication7.Controllers
         {
             return View();
         }
+        public IActionResult AdminLogout()
+        {
+            HttpContext.Session.Clear();
+
+            return View("AdminLogin");
+        }
+
         public IActionResult AdminLogin()
         {
             return View();

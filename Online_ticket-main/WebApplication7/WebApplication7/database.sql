@@ -57,6 +57,8 @@ insert into Role values
 ('User');
 
 select * from Role;
+
+
 CREATE TABLE Users (
     user_id INT PRIMARY KEY identity(1,1),
     username VARCHAR(50) ,
@@ -65,6 +67,12 @@ CREATE TABLE Users (
     password VARCHAR(255), 
     role INT
 );
+
+insert into Users values
+('Admin','admin@gmail.com','1234567','admin123',1),
+('Employe','employe@gmail.com','1234567','emp123',2),
+('User','muhammadasfahan689@gmail.com','1234567','user123',3);
+
 TRUNCATE table  Users;
 select*from Users;
 

@@ -38,12 +38,17 @@
             {
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       
-                        @Context.Session.GetString("abc")
+                        <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;">
+                             <a href="#" class="btn btn-danger square-btn-adjust">
+                                @Context.Session.GetString("abc") <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" asp-area="" asp-controller="Dashboard" asp-action="AdminLogout">Logout</a>
+                                </div>
+
+
+                            </a>
+                        </div>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" asp-area="" asp-controller="Dashboard" asp-action="Logout">Logout</a>
-                    </div>
+                   
                 </li>
             }
             else
