@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApplication7.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 
 namespace WebApplication7.Controllers
 {
@@ -39,20 +40,24 @@ namespace WebApplication7.Controllers
         }
 
         [HttpPost]
-        public IActionResult AdminLogin(string email , string password)
+        public IActionResult AdminLogin(string email , string password , int role)
         {
-
-            var result = conn.Users.Any(x => x.Email == email && x.Password == password);
+          
+            var result = conn.Users.Any(x => x.Email == email && x.Password == password && x.role == 1 );
             if (result)
             {
-                var data = conn.Users.Where(x => x.Email == email && x.Password == password).FirstOrDefault();
+                var data = conn.Users.Where(x => x.Email == email && x.Password == password && x.role == 1).FirstOrDefault();
                 if (data != null)
                 {
 
 
+                    if (data.role == 1)
+                    {
+                        HttpContext.Session.SetString("abc", data.Username);
+                        return RedirectToAction("AdminIndex");
+                    }
 
-                    HttpContext.Session.SetString("abc", data.Username);
-                return RedirectToAction("AdminIndex");
+                        
 
 
 

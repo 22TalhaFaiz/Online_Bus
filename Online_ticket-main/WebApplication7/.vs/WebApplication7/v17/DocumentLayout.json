@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\webapplication7\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|c:\\project\\online_bus\\online_ticket-main\\webapplication7\\webapplication7\\views\\dashboard\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\webapplication7\\views\\dashboard\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\views\\dashboard\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|c:\\project\\online_bus\\online_ticket-main\\webapplication7\\webapplication7\\views\\dashboard\\adminheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\views\\dashboard\\adminheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|c:\\project\\online_bus\\online_ticket-main\\webapplication7\\webapplication7\\views\\dashboard\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\views\\dashboard\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|c:\\project\\online_bus\\online_ticket-main\\webapplication7\\webapplication7\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\webapplication7\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\webapplication7\\views\\dashboard\\adminlogout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B52C371F-831A-4CBA-B0E3-F753D160614B}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\views\\dashboard\\adminlogout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,45 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\Views\\Dashboard\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "WebApplication7\\Views\\Dashboard\\AdminLogin.cshtml",
+              "ToolTip": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\Views\\Dashboard\\AdminLogin.cshtml",
+              "RelativeToolTip": "WebApplication7\\Views\\Dashboard\\AdminLogin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T15:56:14.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AdminIndex.cshtml",
               "DocumentMoniker": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\Views\\Dashboard\\AdminIndex.cshtml",
               "RelativeDocumentMoniker": "WebApplication7\\Views\\Dashboard\\AdminIndex.cshtml",
               "ToolTip": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\Views\\Dashboard\\AdminIndex.cshtml",
               "RelativeToolTip": "WebApplication7\\Views\\Dashboard\\AdminIndex.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-06T10:34:32.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminHeader.cshtml",
-              "DocumentMoniker": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\Views\\Dashboard\\AdminHeader.cshtml",
-              "RelativeDocumentMoniker": "WebApplication7\\Views\\Dashboard\\AdminHeader.cshtml",
-              "ToolTip": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\Views\\Dashboard\\AdminHeader.cshtml",
-              "RelativeToolTip": "WebApplication7\\Views\\Dashboard\\AdminHeader.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T10:32:54.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminLogout.cshtml",
-              "DocumentMoniker": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\Views\\Dashboard\\AdminLogout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication7\\Views\\Dashboard\\AdminLogout.cshtml",
-              "ToolTip": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\Views\\Dashboard\\AdminLogout.cshtml",
-              "RelativeToolTip": "WebApplication7\\Views\\Dashboard\\AdminLogout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T08:18:13.767Z",
               "EditorCaption": ""
             },
             {
@@ -79,20 +62,20 @@
               "RelativeDocumentMoniker": "WebApplication7\\Controllers\\DashboardController.cs",
               "ToolTip": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "WebApplication7\\Controllers\\DashboardController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAqwEEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T08:17:12.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_layout2.cshtml",
               "DocumentMoniker": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\Views\\Shared\\_layout2.cshtml",
               "RelativeDocumentMoniker": "WebApplication7\\Views\\Shared\\_layout2.cshtml",
               "ToolTip": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\Views\\Shared\\_layout2.cshtml",
               "RelativeToolTip": "WebApplication7\\Views\\Shared\\_layout2.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-05T20:27:05.432Z",
               "EditorCaption": ""
