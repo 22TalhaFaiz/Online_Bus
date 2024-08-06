@@ -19,7 +19,16 @@ CREATE TABLE Buses (
     model VARCHAR(50),
     operator VARCHAR(50)
 );
-
+CREATE TABLE Card (
+    card_id INT PRIMARY KEY IDENTITY(1,1),     
+    name NVARCHAR(100) NOT NULL,                
+    description NVARCHAR(255),                  
+    image NVARCHAR(MAX),                        
+    price DECIMAL(10, 2) NOT NULL,              
+    luxury BIT DEFAULT 0,                       
+    non_luxury BIT DEFAULT 1,                
+    buy_ticket NVARCHAR(100),                         
+);
 
 
 
