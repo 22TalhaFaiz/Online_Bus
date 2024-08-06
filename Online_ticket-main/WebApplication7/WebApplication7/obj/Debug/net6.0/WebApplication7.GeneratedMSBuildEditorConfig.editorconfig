@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\project\Online_Bus\Online_ticket-main\WebApplication7\WebApplication7
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/AdminHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkbWluSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/AdminIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkbWluSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
