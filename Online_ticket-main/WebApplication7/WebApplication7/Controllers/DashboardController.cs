@@ -27,12 +27,26 @@ namespace WebApplication7.Controllers
            
             return View();
         }
+        public IActionResult Edit()
+        {
+            var user = _context.Users.Find();
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
+        [HttpGet]
         public IActionResult Edit(int id)
         {
-            
-
-            return View();
+            var user = _context.Users.FirstOrDefault(u => u.User_id == id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
         }
+
 
         public IActionResult Delete(int id)
         {
