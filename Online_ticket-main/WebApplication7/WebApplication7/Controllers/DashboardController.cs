@@ -29,6 +29,17 @@ namespace WebApplication7.Controllers
 
             return View();
         }
+        public IActionResult view()
+        {
+            // Fetch data from the database
+            var users = _conn.Users.ToList(); // Fetch all users for demonstration
+            ViewData["Users"] = users; // Pass the data to the view using ViewData
+
+            ViewData["Message"] = "Welcome to the Admin Dashboard!";
+            ViewData["UserName"] = HttpContext.Session.GetString("abc");
+
+            return View();
+        }
 
         public IActionResult AdminLogin()
         {
