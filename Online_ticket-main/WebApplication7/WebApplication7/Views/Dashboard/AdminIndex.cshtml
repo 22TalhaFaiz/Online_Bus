@@ -4,25 +4,46 @@
 @Html.Partial("AdminHeader");
 
 
-<body>
-    <div id="page-wrapper">
-        <div id="page-inner">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Blank Page</h2>
-                    <h5>Welcome Jhon Deo , Love to see you back.</h5>
-                </div>
-            </div>
-            <!-- /. ROW  -->
-            <hr />
-        </div>
-        <!-- /. PAGE INNER  -->
-    </div>
-    <!-- /. PAGE WRAPPER  -->
-    </div>
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    var users = ViewData["Users"] as List<Users>; // Cast ViewData to the appropriate type
+}
 
-   
-   
+<h2>@ViewData["Title"]</h2>
+
+<p>@ViewData["Message"]</p>
+<p>Welcome, @ViewData["UserName"]!</p>
+
+<h3>Users List:</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Contact</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (users != null && users.Any())
+        {
+            @foreach (var user in users)
+            {
+                <tr>
+                    <td>@user.Username</td>
+                    <td>@user.Email</td>
+                    <td>@user.Contact</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">No users found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
 
 
 
@@ -40,5 +61,5 @@
     <script src="~/assets2/js/custom.js"></script>
 
    
-</body>
+
 </html>

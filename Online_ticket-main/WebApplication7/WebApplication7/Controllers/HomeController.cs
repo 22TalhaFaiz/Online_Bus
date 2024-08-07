@@ -42,6 +42,8 @@ namespace WebApplication7
         {
             return View();
         }
+
+
     
 
         public IActionResult Footer()
@@ -149,7 +151,10 @@ namespace WebApplication7
             return View();
         }
         public IActionResult Transport()
+
         {
+
+
             return View();
         }
 

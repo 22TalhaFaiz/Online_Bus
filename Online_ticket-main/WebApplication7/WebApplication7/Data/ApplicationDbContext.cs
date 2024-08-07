@@ -15,6 +15,7 @@ namespace WebApplication7.Data
 
             // DbSets for your entities
             public DbSet<Category> Categories { get; set; }
+            public DbSet<Users> Users { get; set; }
 
             // Optionally configure entity relationships and constraints
             protected override void OnModelCreating(ModelBuilder modelBuilder)
