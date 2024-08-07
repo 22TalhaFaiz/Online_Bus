@@ -8,8 +8,58 @@
     <div id="page-inner">
         <div class="row">
             <div class="col-md-12">
-                <h2>Admin Dashboard</h2>
-                <h5>Welcome  ,  <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Online bus ticket reservation</a></h5>
+               @*  <h2>Admin Dashboard</h2>
+                <h5>Welcome  ,  <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Online bus ticket reservation</a></h5> *@
+                @{
+
+                    var users = ViewData["Users"] as List<Users>; // Cast ViewData to the appropriate type
+                }
+
+
+                <h3 class="text-center text-danger" ">Users Data</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>Password</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                @if (users != null && users.Any())
+                {
+                    @foreach (var user in users )
+                    {
+                                <tr class="bg-info">
+                                    <td>@user.User_id</td>
+                                    <td>@user.Username</td>
+                                    <td>@user.Email</td>
+                                    <td>@user.Contact</td>
+                                    <td>@user.Password</td>
+                                    <td>
+                                        <a class="dropdown-item btn btn-warning" asp-area="" asp-controller="Dashboard" asp-action="Edit" asp-route-id="@user.User_id">Edit</a>
+                                    </td>
+                                    <td>
+                                        <a class="dropdown-item btn btn-danger" asp-area="" asp-controller="Dashboard" asp-action="Delete" asp-route-id="@user.User_id">Delete</a>
+                                    </td>
+
+                                </tr>
+                    }
+                }
+                else
+                {
+                            <tr>
+                                <td colspan="3">No users found.</td>
+                            </tr>
+                }
+                    </tbody>
+                </table>
+
             </div>
         </div>
         <!-- /. ROW  -->
