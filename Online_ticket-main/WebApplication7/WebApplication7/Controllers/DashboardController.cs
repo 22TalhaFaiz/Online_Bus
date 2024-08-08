@@ -24,26 +24,14 @@ namespace WebApplication7.Controllers
             ViewData["Users"] = users; 
             return View();
         }
-
-       
-        public IActionResult Edit(int id)
+        public IActionResult Edit()
         {
-            var users = _conn.Users.Find(id);
-
-            ViewData["UpdateTitle"] = "Data Update";
+           
             return View();
         }
 
 
 
-
-
-        public IActionResult Delete()
-        {
-
-
-            return View();
-        }
 
         public IActionResult AdminLogin()
         {
@@ -82,5 +70,11 @@ namespace WebApplication7.Controllers
             ViewData["PrivacyPolicy"] = "Your privacy policy content goes here.";
             return View();
         }
+        public IActionResult Coantact()
+        {
+           
+            return View();
+        }
+
     }
 }

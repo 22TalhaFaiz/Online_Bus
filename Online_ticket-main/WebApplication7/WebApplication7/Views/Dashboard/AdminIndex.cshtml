@@ -1,4 +1,5 @@
-﻿ ﻿@{
+﻿
+ @{
     Layout = "~/Views/Shared/_Layout2.cshtml";
 } 
 @Html.Partial("AdminHeader");
@@ -10,7 +11,10 @@
             <div class="col-md-12">
                @*  <h2>Admin Dashboard</h2>
                 <h5>Welcome  ,  <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Online bus ticket reservation</a></h5> *@
-                @{
+               
+
+
+                 @{
 
                     var users = ViewData["Users"] as List<Users>; // Cast ViewData to the appropriate type
                 }
@@ -45,32 +49,39 @@
                                     <td>@user.Password</td>
                                     <td>@user.role</td>
 
-                                    <td>
 
-                                         <a class="navbar-brand btn btn-warning" href="Edit" asp-route-id="@user.User_id">Edit</a 
-                                        
+                                    
+                                    <td>
+                                        @* <a asp-action="Edit" asp-route-id="@user.User_id" class="btn btn-warning">Edit</a> *@
+                                          <a  class="navbar-brand btn btn-warning" href="Edit" asp-route-id="@user.User_id">Edit</a > 
                                     </td>
+                                        
+                                   
+
                                     <td>
                                         <a class="navbar-brand btn btn-danger" href="Delete">Delete</a>
 
-                                @* <a asp-action="Delete" asp-route-id="@user.User_id" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?');">Delete</a> *@
-                                    </td>
+                                @* <a asp-action="Delete" asp-route-id="@user.User_id" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?');">Delete</a>  *@
+                                     </td>
     
                                    
 
                                 </tr>
                     }
                 }
-                else
-                {
-                            <tr>
-                                <td colspan="3">No users found.</td>
-                            </tr>
-                }
+               
+
                     </tbody>
                 </table>
 
-            </div>
+
+
+
+
+
+
+
+           
         </div>
         <!-- /. ROW  -->
         <hr />
