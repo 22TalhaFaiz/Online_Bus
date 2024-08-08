@@ -19,36 +19,26 @@ namespace WebApplication7.Controllers
         }
 
         public IActionResult AdminIndex()
-        {
-            // Fetch data from the database
-            var users = _conn.Users.ToList(); // Fetch all users for demonstration
-            ViewData["Users"] = users; // Pass the data to the view using ViewData
-
-           
+        { 
+            var users = _conn.Users.ToList(); 
+            ViewData["Users"] = users; 
             return View();
         }
-        public IActionResult Edit()
-        {
-            var user = _context.Users.Find();
-            if (user == null)
-            {
-                return NotFound();
-            }
-            return View(user);
-        }
-        [HttpGet]
+
+       
         public IActionResult Edit(int id)
         {
-            var user = _context.Users.FirstOrDefault(u => u.User_id == id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-            return View(user);
+            var users = _conn.Users.Find(id);
+
+            ViewData["UpdateTitle"] = "Data Update";
+            return View();
         }
 
 
-        public IActionResult Delete(int id)
+
+
+
+        public IActionResult Delete()
         {
 
 
