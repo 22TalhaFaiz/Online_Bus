@@ -1,23 +1,26 @@
-﻿@{
-    ViewData["Title"] = "Data Update";
-}
+﻿@model WebApplication7.Models.Users
 
-<div class="container bg-light mb-5 mt-5 shadow-lg w-50 rounded">
-    <h1 class="text-center text-danger mb-5">@ViewData["Title"]</h1>
-    <center>
-        <form asp-action="Edit" method="post">
-          @*   @if (ViewData["LoginError"] != null)
-            {
-                <div class="alert alert-danger">
-                    @ViewData["LoginError"]
-                </div>
-            } *@
-            <input type="text" name="username" placeholder="Enter Name" class="form-control shadow-sm w-50 mb-5 rounded-pill" required />
-            <input type="email" name="email" placeholder="Enter Email" class="form-control shadow-sm w-50 mb-5 rounded-pill" required />
-            <input type="tel" name="contact" placeholder="Enter Contact" class="form-control shadow-sm w-50 mb-5 rounded-pill" required />
-            <input type="password" name="password" placeholder="Enter Password" class="form-control shadow-sm w-50 mb-5 rounded-pill" required />
-       
-            <input type="submit" value="Update" class="w-50 text-light btn btn-danger mb-5 rounded-pill" />
-        </form>
-    </center>
-</div>
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="User_id" />
+    <div class="form-group">
+        <label asp-for="Username" class="control-label"></label>
+        <input asp-for="Username" class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password" class="control-label"></label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Contact" class="control-label"></label>
+        <input asp-for="Contact" class="form-control" />
+        <span asp-validation-for="Contact" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

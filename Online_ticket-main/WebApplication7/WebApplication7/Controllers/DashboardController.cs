@@ -19,16 +19,24 @@ namespace WebApplication7.Controllers
         }
 
         public IActionResult AdminIndex()
-        { 
-            var users = _conn.Users.ToList(); 
-            ViewData["Users"] = users; 
-            return View();
-        }
-        public IActionResult Edit()
         {
-           
+            var users = _conn.Users.ToList();
+            ViewData["Users"] = users;
             return View();
         }
+     
+        public IActionResult Edit(int id)
+        {
+            var user = _context.Users.Find(id); // Example for fetching user
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+
+        }
+       
+      
 
 
 
@@ -74,6 +82,12 @@ namespace WebApplication7.Controllers
         {
            
             return View();
+        }
+
+        public IActionResult Test()
+        {
+			var users = _context.Users.ToList();
+			return View(users);
         }
 
     }
