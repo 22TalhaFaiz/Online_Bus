@@ -40,14 +40,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< Updated upstream
 [C:/Users/asp/Documents/GitHub/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/Test.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFRlc3QuY3NodG1s
+=======
+[C:/Users/asp/Documents/GitHub/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/view.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXHZpZXcuY3NodG1s
+>>>>>>> Stashed changes
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/asp/Documents/GitHub/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Confirm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25maXJtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< Updated upstream
+=======
+[C:/Users/asp/Documents/GitHub/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+>>>>>>> Stashed changes
 [C:/Users/asp/Documents/GitHub/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -50,10 +50,20 @@ namespace WebApplication7
         {
             return View();
         }
-        public IActionResult Pricing()
+		public IActionResult Contact()
+		{
+			return View();
+		}
+		[HttpPost]
+        public IActionResult Contact(string username , string email , string textarea )
         {
-            return View();
+			Contact data = new Contact(0, username, email,textarea);
+			conn.contact_us.Add(data);
+			conn.SaveChanges();
+
+			return View();
         }
+		
 		public IActionResult Confirm(int code)
 		{
             var codes = Convert.ToInt32(HttpContext.Session.GetString("code"));

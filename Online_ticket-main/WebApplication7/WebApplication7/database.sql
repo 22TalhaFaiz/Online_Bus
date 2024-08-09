@@ -111,7 +111,9 @@ select * from Payments;
 
 CREATE TABLE contact_us(
 id int primary key identity(1,1),
-name varchar (100),
+username varchar (100),
 email varchar(100),
-massege varchar(200),
+textarea varchar(200),
 );
+
+select * from contact_us;
