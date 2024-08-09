@@ -18,13 +18,7 @@ namespace WebApplication7.Controllers
             _conn = new connection();
         }
 
-        public IActionResult AdminIndex()
-        {
-            var users = _conn.Users.ToList();
-            ViewData["Users"] = users;
-            return View();
-        }
-     
+        
         public IActionResult Edit(int id)
         {
             var user = _context.Users.Find(id); // Example for fetching user
@@ -35,11 +29,15 @@ namespace WebApplication7.Controllers
             return View(user);
 
         }
-       
-      
 
 
 
+
+        public IActionResult Index()
+        {
+
+            return View();
+        }
 
         public IActionResult AdminLogin()
         {
@@ -59,7 +57,7 @@ namespace WebApplication7.Controllers
                     if (data.role == 1)
                     {
                         HttpContext.Session.SetString("abc", data.Username);
-                        return RedirectToAction("AdminIndex");
+                        return RedirectToAction("Index");
                     }
                 }
             }
@@ -78,13 +76,9 @@ namespace WebApplication7.Controllers
             ViewData["PrivacyPolicy"] = "Your privacy policy content goes here.";
             return View();
         }
-        public IActionResult Coantact()
-        {
-           
-            return View();
-        }
+       
 
-        public IActionResult Test()
+        public IActionResult View()
         {
 			var users = _context.Users.ToList();
 			return View(users);
