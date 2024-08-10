@@ -41,7 +41,7 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Dashboard}/{action=Index}/{id?}");
+    pattern: "{controller=Dashboard}/{action=AdminIndex}/{id?}");
 
 
 app.Run();

@@ -33,11 +33,11 @@ namespace WebApplication7.Controllers
 
 
 
-        public IActionResult Index()
+        public IActionResult AdminIndex()
         {
-
-            return View();
+            return View("AdminIndex");
         }
+
 
         public IActionResult AdminLogin()
         {
@@ -57,7 +57,7 @@ namespace WebApplication7.Controllers
                     if (data.role == 1)
                     {
                         HttpContext.Session.SetString("abc", data.Username);
-                        return RedirectToAction("Index");
+                        return RedirectToAction("AdminIndex");
                     }
                 }
             }

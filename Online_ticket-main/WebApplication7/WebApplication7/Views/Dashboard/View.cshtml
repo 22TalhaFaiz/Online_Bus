@@ -1,15 +1,17 @@
-﻿@model IEnumerable<WebApplication7.Models.Users>
+﻿
+@model IEnumerable<WebApplication7.Models.Users>
 
 @{
     ViewData["Title"] = "View";
 
 }
 
-<h1>Users Data</h1>
+<h1 class="text-center text-danger mb-5 mt-5">Users Data</h1>
 
 @* <p>
     <a asp-action="Create">Create New</a>
 </p> *@
+<div class="container">
 <table class="table ">
     <thead>
         <tr>
@@ -31,13 +33,23 @@
             <th>
                 @Html.DisplayNameFor(model => model.role)
             </th>
+            <th>
+               Edit
+            </th>
+
+            <th>
+               Delete
+            </th>
             
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
-            <tr class="bg-info">
+            <tr >
+                <td>
+                    @Html.DisplayFor(modelItem => item.User_id)
+                </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Username)
                 </td>
@@ -54,11 +66,17 @@
                     @Html.DisplayFor(modelItem => item.role)
                 </td>
                 <td>
-                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.User_id">Edit</a> |
-                     |
+                    <a asp-action="Edit" class="btn btn-success" asp-route-id="@item.User_id">Edit</a> 
+                     
+                  
+                </td>
+                <td>
+                   
+
                     <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.User_id">Delete</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+</div>
