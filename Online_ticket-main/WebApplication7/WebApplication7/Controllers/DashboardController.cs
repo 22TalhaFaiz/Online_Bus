@@ -29,7 +29,13 @@ namespace WebApplication7.Controllers
             return View(user);
 
         }
+        [HttpPost]
+        public IActionResult Edit(int id)
+        {
+           
+            return View();
 
+        }
 
 
 

@@ -1,9 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Admin Login";
 }
-
+<br /><br /><br />
 <div class="container bg-light mb-5 mt-5 shadow-lg w-50 rounded">
-    <h1 class="text-center text-danger mb-5">@ViewData["Title"]</h1>
+    <h1 class="text-center text-danger mb-5 mt-5">@ViewData["Title"]</h1>
     <center>
         <form asp-action="AdminLogin" method="post">
             @if (ViewData["LoginError"] != null)

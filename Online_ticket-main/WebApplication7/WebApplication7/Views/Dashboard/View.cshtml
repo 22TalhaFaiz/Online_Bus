@@ -1,82 +1,171 @@
 ﻿
 @model IEnumerable<WebApplication7.Models.Users>
-
 @{
-    ViewData["Title"] = "View";
-
+    Layout = "~/Views/Shared/_Layout2.cshtml";
 }
+<div id="wrapper">
+    <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Admin</a>
+        </div>
 
-<h1 class="text-center text-danger mb-5 mt-5">Users Data</h1>
+
+        @if (!string.IsNullOrEmpty(Context.Session.GetString("abc")))
+        {
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;">
+                        <span class="btn btn-danger square-btn-adjust">
+                            @Context.Session.GetString("abc")
+                        </span>
+                    </div>
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" asp-area="" asp-controller="Dashboard" asp-action="AdminLogout">Logout</a>
+                </div>
+            </li>
+        }
+
+        else
+        {
+            <li class="nav-item">
+                <div style="color: white; padding: 15px 50px 5px 50px; float: right; font-size: 16px;">
+
+                    <a class="dropdown-item btn btn-danger square-btn-adjust" asp-area="" asp-controller="Dashboard" asp-action="AdminLogin">Login</a>
+                </div>
+            </li>
+        }
+    </nav>
+    <!-- /. NAV TOP  -->
+    <!-- /. NAV side  -->
+
+    <nav class="navbar-default navbar-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav" id="main-menu">
+                <li class="text-center">
+                    <img src="~/assets2/img/find_user.png" class="user-image img-responsive" />
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="View"><i class="fa fa-user fa-3x"></i>User Data </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="Contact"><i class="fa fa-user fa-3x"></i>Contact Us </a>
+                </li>
+            </ul>
+            </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- /. NAV SIDE  -->
+
+
+
 
 @* <p>
     <a asp-action="Create">Create New</a>
 </p> *@
-<div class="container">
-<table class="table ">
-    <thead>
-        <tr>
-            <th>
-               id
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Username)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Contact)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Password)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.role)
-            </th>
-            <th>
-               Edit
-            </th>
 
-            <th>
-               Delete
-            </th>
-            
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr >
-                <td>
-                    @Html.DisplayFor(modelItem => item.User_id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Username)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Contact)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Password)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.role)
-                </td>
-                <td>
-                    <a asp-action="Edit" class="btn btn-success" asp-route-id="@item.User_id">Edit</a> 
-                     
-                  
-                </td>
-                <td>
-                   
+    <div id="page-wrapper">
+        <div id="page-inner">
+            <div class="row">
+                <div class="col-md-12">
 
-                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.User_id">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-</div>
+
+
+                    <h1 class="text-center text-danger mb-5 mt-5">Users Data</h1>
+                        <table class="table ">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        id
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Username)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Email)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Contact)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Password)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.role)
+                                    </th>
+                                    <th>
+                                        Edit
+                                    </th>
+
+                                    <th>
+                                        Delete
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.User_id)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Username)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Email)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Contact)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Password)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.role)
+                                        </td>
+                                        <td>
+                                            <a asp-action="Edit" class="btn btn-success" asp-route-id="@item.User_id">Edit</a>
+
+
+                                        </td>
+                                        <td>
+
+
+                                            <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.User_id">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+                <!-- /. ROW  -->
+                <hr />
+            </div>
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+  

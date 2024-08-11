@@ -1,26 +1,33 @@
 ﻿@model WebApplication7.Models.Users
 
+
+<div class="container bg-light mb-5 mt-5 shadow-lg w-50 rounded">
+
+    <center>
 <form asp-action="Edit" method="post">
+      <h1 class="text-center mb-5 mt-5 text-dark">Update <sapn class="text-danger">Data</sapn></h1>
     <input type="hidden" asp-for="User_id" />
     <div class="form-group">
-        <label asp-for="Username" class="control-label"></label>
-        <input asp-for="Username" class="form-control" />
-        <span asp-validation-for="Username" class="text-danger"></span>
+      
+         <input asp-for="Username" class= "form-control shadow-sm w-50 mb-5 rounded-pill" />
+       
     </div>
     <div class="form-group">
-        <label asp-for="Email" class="control-label"></label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
+        
+         <input asp-for="Email" class="form-control shadow-sm w-50 mb-5 rounded-pill" />
+       
     </div>
     <div class="form-group">
-        <label asp-for="Password" class="control-label"></label>
-        <input asp-for="Password" type="password" class="form-control" />
-        <span asp-validation-for="Password" class="text-danger"></span>
+       
+         <input asp-for="Password"  class="form-control shadow-sm w-50 mb-5 rounded-pill" />
+       
     </div>
-    <div class="form-group">
-        <label asp-for="Contact" class="control-label"></label>
-        <input asp-for="Contact" class="form-control" />
-        <span asp-validation-for="Contact" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Save</button>
+            <div class="form-group">
+
+                <input asp-for="Contact" class="form-control shadow-sm w-50 mb-5 rounded-pill" />
+
+            </div>
+            <button type="submit" class=" btn btn-danger control shadow-sm w-50 mb-5 rounded-pill">Save</button>
 </form>
+    </center>
+</div>
