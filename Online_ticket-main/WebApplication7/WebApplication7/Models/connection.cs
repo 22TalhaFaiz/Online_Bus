@@ -13,9 +13,11 @@ namespace WebApplication7.Models
         }
 
         public DbSet<Users> Users { get; set; }
-		
+        public DbSet<Contact> contact_us { get; set; }
 
 
 
-	}
+
+
+    }
 }

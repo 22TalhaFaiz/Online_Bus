@@ -17,11 +17,19 @@ namespace WebApplication7.Controllers
             _context = context;
             _conn = new connection();
         }
+        public IActionResult Delete(int id)
+        {
+            var delete = _context.Users.FirstOrDefault(a => a.User_id == id);// Example for fetching user
 
-        
+            _context.Users.Remove(delete);
+            _context.SaveChanges();
+            return View("View");
+
+        }
+
         public IActionResult Edit(int id)
         {
-            var user = _context.Users.Find(id); // Example for fetching user
+            var user = _context.Users.FirstOrDefault(a => a.User_id == id);// Example for fetching user
             if (user == null)
             {
                 return NotFound();
@@ -30,10 +38,16 @@ namespace WebApplication7.Controllers
 
         }
         [HttpPost]
-        public IActionResult Edit(int id)
+        public IActionResult Edit(int id ,string username,string email , string password ,string contact)
         {
-           
-            return View();
+            var user = _context.Users.FirstOrDefault(a => a.User_id == id);// Example for fetching user
+            user.Username = username;
+            user.Email = email;
+            user.Password = password;
+            user.Contact = contact;
+
+            _context.SaveChanges();
+            return View("View");
 
         }
 

@@ -17,6 +17,8 @@ namespace WebApplication7
     {
         private readonly CategoryService _categoryService;
         connection conn = new connection();
+
+    
         // Constructor for dependency injection
         public HomeController(CategoryService categoryService)
         {
@@ -55,14 +57,14 @@ namespace WebApplication7
 			return View();
 		}
 		//[HttpPost]
-  //      public IActionResult Contact(string username , string email , string textarea )
-  //      {
-		//	Contact data = new Contact(0, username, email,textarea);
-		//	conn.contact_us.Add(data);
-		//	conn.SaveChanges();
+       public IActionResult Contact(string username , string email , string textarea )
+       {
+			Contact data = new Contact(0, username, email,textarea);
+			conn.contact_us.Add(data);
+			conn.SaveChanges();
 
-		//	return View();
-  //      }
+		return View();
+      }
 		
 		public IActionResult Confirm(int code)
 		{

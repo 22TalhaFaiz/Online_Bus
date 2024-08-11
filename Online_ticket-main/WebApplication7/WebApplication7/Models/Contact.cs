@@ -1,7 +1,10 @@
-﻿namespace WebApplication7.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace WebApplication7.Models
 {
     public class Contact
     {
+        [Key]
         public int Id { get; set; }
         public string Username { get; set; }
         public string Email { get; set; }
