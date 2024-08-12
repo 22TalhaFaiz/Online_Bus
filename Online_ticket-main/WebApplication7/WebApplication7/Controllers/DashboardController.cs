@@ -23,7 +23,8 @@ namespace WebApplication7.Controllers
 
             _context.Users.Remove(delete);
             _context.SaveChanges();
-            return View("View");
+
+            return RedirectToAction("View");
 
         }
 
@@ -47,7 +48,7 @@ namespace WebApplication7.Controllers
             user.Contact = contact;
 
             _context.SaveChanges();
-            return View("View");
+            return RedirectToAction("View");
 
         }
 
