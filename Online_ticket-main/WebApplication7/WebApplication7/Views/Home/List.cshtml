@@ -1,0 +1,30 @@
+﻿@model IEnumerable<WebApplication7.Models.Trip>
+@{
+    ViewBag.Title = "Available Trips";
+}
+
+<h2>Available Trips</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Pickup Location</th>
+            <th>Dropoff Location</th>
+            <th>Pickup Date</th>
+            <th>Dropoff Date</th>
+            <th>Pickup Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var trip in Model)
+        {
+            <tr>
+                <td>@trip.PickupLocation</td>
+                <td>@trip.DropoffLocation</td>
+                <td>@trip.PickupDate.ToShortDateString()</td>
+                <td>@trip.DropoffDate.ToShortDateString()</td>
+                <td>@trip.PickupTime.ToString(@"hh\:mm")</td>
+            </tr>
+        }
+    </tbody>
+</table>
