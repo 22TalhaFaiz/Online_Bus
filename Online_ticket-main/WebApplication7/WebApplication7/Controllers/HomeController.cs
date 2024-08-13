@@ -18,10 +18,11 @@ namespace WebApplication7
     {
 		private readonly ApplicationDbContext _context;
 		private readonly CategoryService _categoryService;
+
         connection conn = new connection();
+       
 
 
-    
         // Constructor for dependency injection
         public HomeController(CategoryService categoryService)
         {
@@ -120,14 +121,14 @@ namespace WebApplication7
         }
 		public IActionResult Contact()
 		{
-			return View();
+			return View("Contact");
 		}
 		//[HttpPost]
        public IActionResult Contact(string username , string email , string textarea )
        {
 			Contact data = new Contact(0, username, email,textarea);
-			conn.contact_us.Add(data);
-			conn.SaveChanges();
+			connect.contact_us.Add(data);
+			connect.SaveChanges();
 
 		return View();
       }
