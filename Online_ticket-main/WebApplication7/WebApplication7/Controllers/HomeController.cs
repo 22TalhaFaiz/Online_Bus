@@ -20,7 +20,9 @@ namespace WebApplication7
 		private readonly CategoryService _categoryService;
 
         connection conn = new connection();
-       
+        connection2 connect = new connection2();
+
+
 
 
         // Constructor for dependency injection
@@ -121,9 +123,9 @@ namespace WebApplication7
         }
 		public IActionResult Contact()
 		{
-			return View("Contact");
+			return View();
 		}
-		//[HttpPost]
+		[HttpPost]
        public IActionResult Contact(string username , string email , string textarea )
        {
 			Contact data = new Contact(0, username, email,textarea);
@@ -131,7 +133,7 @@ namespace WebApplication7
 			connect.SaveChanges();
 
 		return View();
-      }
+     }
 		
 		public IActionResult Confirm(int code)
 		{

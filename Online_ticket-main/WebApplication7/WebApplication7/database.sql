@@ -115,7 +115,7 @@ username varchar (100),
 email varchar(100),
 textarea varchar(200),
 );
-
+TRUNCATE table contact_us ;
 select * from contact_us;
 
 

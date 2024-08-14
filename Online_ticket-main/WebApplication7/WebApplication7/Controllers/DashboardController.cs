@@ -104,5 +104,11 @@ namespace WebApplication7.Controllers
 			return View(users);
         }
 
+
+        public IActionResult Contact()
+        {
+            
+            return View();
+        }
     }
 }
