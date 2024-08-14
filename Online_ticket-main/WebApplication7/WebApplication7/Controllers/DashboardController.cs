@@ -11,11 +11,21 @@ namespace WebApplication7.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly connection _conn;
+       
+
 
         public DashboardController(ApplicationDbContext context)
         {
             _context = context;
             _conn = new connection();
+
+         
+        }
+        public IActionResult Contact()
+        {
+            var users = _conn.contact_us.ToList();
+            return View(users);
+
         }
         public IActionResult Delete(int id)
         {
@@ -105,10 +115,6 @@ namespace WebApplication7.Controllers
         }
 
 
-        public IActionResult Contact()
-        {
-            
-            return View();
-        }
+        
     }
 }
