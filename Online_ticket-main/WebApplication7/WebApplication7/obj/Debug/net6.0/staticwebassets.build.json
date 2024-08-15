@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Bt5ON6gjL39M13/Ke24dTAqdiLwCJ9kwymY4w1f938w=",
+  "Hash": "6ZQwfH3bvcLRja0zxODeUMOYLwhN8eizGraO+1egE18=",
   "Source": "WebApplication7",
   "BasePath": "_content/WebApplication7",
   "Mode": "Default",
@@ -1155,6 +1155,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\banner1.jpg"
+    },
+    {
+      "Identity": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\banner2.jpg",
+      "SourceId": "WebApplication7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\",
+      "BasePath": "_content/WebApplication7",
+      "RelativePath": "images/banner2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner2.jpg"
     },
     {
       "Identity": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\bg_1.jpg",
