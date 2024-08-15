@@ -11,22 +11,47 @@ namespace WebApplication7.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly connection _conn;
-       
+        private readonly connection2 _connect;
 
 
         public DashboardController(ApplicationDbContext context)
         {
             _context = context;
             _conn = new connection();
-
-         
+            _connect = new connection2();
+        
         }
         public IActionResult Contact()
         {
-            var users = _conn.contact_us.ToList();
+            var users = _connect.contact_us.ToList();
             return View(users);
 
         }
+        public IActionResult ContactEdit(int id)
+        {
+            var user = _connect.contact_us.FirstOrDefault(a => a.Id == id);// Example for fetching user
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
+        [HttpPost]
+        public IActionResult ContactEdit(int id, string username, string email, string textarea)
+        {
+            var user = _connect.contact_us.FirstOrDefault(a => a.Id == id);// Example for fetching user
+            user.Username = username;
+            user.Email = email;
+            user.Textarea = textarea;
+
+
+            _connect.SaveChanges();
+            return RedirectToAction("Contact");
+
+        }
+
+
+        [HttpPost]
         public IActionResult Delete(int id)
         {
             var delete = _context.Users.FirstOrDefault(a => a.User_id == id);// Example for fetching user
@@ -47,6 +72,7 @@ namespace WebApplication7.Controllers
             return View(user);
 
         }
+
         [HttpPost]
         public IActionResult Edit(int id ,string username,string email , string password ,string contact)
         {
