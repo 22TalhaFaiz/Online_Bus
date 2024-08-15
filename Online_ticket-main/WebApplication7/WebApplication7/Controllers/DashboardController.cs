@@ -144,7 +144,13 @@ namespace WebApplication7.Controllers
             ViewData["PrivacyPolicy"] = "Your privacy policy content goes here.";
             return View();
         }
-       
+
+        public IActionResult AdminHeader()
+        {
+           
+            return View();
+        }
+
 
         public IActionResult View()
         {

@@ -58,8 +58,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/EmployeDashboard/EmployeIndex.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZURhc2hib2FyZFxFbXBsb3llSW5kZXguY3NodG1s
+[C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/ContactDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxDb250YWN0RGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/ContactEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxDb250YWN0RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/ContactView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxDb250YWN0Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/EmployeHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxFbXBsb3llSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/EmployeIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxFbXBsb3llSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/EmployeLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxFbXBsb3llTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/EmployeLogout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxFbXBsb3llTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/project/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Confirm.cshtml]
