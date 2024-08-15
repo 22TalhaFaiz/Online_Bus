@@ -21,7 +21,7 @@ namespace WebApplication7.Controllers
             _connect = new connection2();
         
         }
-        public IActionResult Contact()
+        public IActionResult ContactView()
         {
             var users = _connect.contact_us.ToList();
             return View(users);
@@ -39,14 +39,26 @@ namespace WebApplication7.Controllers
         [HttpPost]
         public IActionResult ContactEdit(int id, string username, string email, string textarea)
         {
-            var user = _connect.contact_us.FirstOrDefault(a => a.Id == id);// Example for fetching user
-            user.Username = username;
-            user.Email = email;
-            user.Textarea = textarea;
+            var edit = _connect.contact_us.FirstOrDefault(a => a.Id == id);// Example for fetching user
+            edit.Username = username;
+            edit.Email = email;
+            edit.Textarea = textarea;
 
 
             _connect.SaveChanges();
-            return RedirectToAction("Contact");
+            return RedirectToAction("ContactView");
+
+        }
+
+
+        
+        public IActionResult ContactDelete(int id)
+        {
+            var delete = _connect.contact_us.FirstOrDefault(a => a.Id == id);// Example for fetching user
+
+            _connect.contact_us.Remove(delete);
+            _connect.SaveChanges();
+            return RedirectToAction("ContactView");
 
         }
 
