@@ -115,5 +115,21 @@ username varchar (100),
 email varchar(100),
 textarea varchar(200),
 );
-
+TRUNCATE table contact_us ;
 select * from contact_us;
+
+
+CREATE TABLE Locations (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Trips (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    PickupLocationId INT FOREIGN KEY REFERENCES Locations(Id),
+    DropoffLocationId INT FOREIGN KEY REFERENCES Locations(Id),
+    PickupDate DATE NOT NULL,
+    DropoffDate DATE NOT NULL,
+    PickupTime TIME NOT NULL
+);
+

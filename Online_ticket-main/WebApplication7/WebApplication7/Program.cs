@@ -8,8 +8,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Configure DbContext with SQL Server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
+<<<<<<< HEAD
     options.UseSqlServer("Server=.;Database=online_bus;User Id=sa;password=aptech; TrustServerCertificate=True;"));
 //options.UseSqlServer("Server=DESKTOP-KL71KR7\\SQLEXPRESS;Database= online_bus;Integrated Security=true"));
+=======
+//    options.UseSqlServer("Server=.;Database=online_bus;User Id=sa;password=aptech; TrustServerCertificate=True;"));
+options.UseSqlServer("Server=DESKTOP-KL71KR7\\SQLEXPRESS;Database= online_bus;Integrated Security=true"));
+>>>>>>> 3a1449702830886577897258edea57e5a825f3ca
 
 
 
@@ -43,5 +48,8 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Dashboard}/{action=AdminIndex}/{id?}");
 
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Employe}/{action=EmployeIndex}/{id?}");
 
 app.Run();

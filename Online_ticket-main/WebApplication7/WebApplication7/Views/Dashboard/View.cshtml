@@ -58,7 +58,7 @@
                     <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="View"><i class="fa fa-user fa-3x"></i>User Data </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="Contact"><i class="fa fa-user fa-3x"></i>Contact Us </a>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="ContactView"><i class="fa fa-user fa-3x"></i>Contact Us </a>
                 </li>
             </ul>
             </li>
@@ -115,7 +115,7 @@
                             <tbody>
                                 @foreach (var item in Model)
                                 {
-                                    <tr>
+                                    <tr class="bg-info">
                                         <td>
                                             @Html.DisplayFor(modelItem => item.User_id)
                                         </td>

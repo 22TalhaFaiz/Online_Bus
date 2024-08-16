@@ -1,0 +1,29 @@
+﻿@model WebApplication7.Models.Contact
+
+
+<div class="container bg-light mb-5 mt-5 shadow-lg w-50 rounded">
+
+    <center>
+        <form asp-action="ContactEdit" method="post">
+            <h1 class="text-center mb-5 mt-5 text-dark">Update <sapn class="text-danger">Contact</sapn></h1>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+
+                <input asp-for="Username" class="form-control shadow-sm w-50 mb-5 rounded-pill" />
+
+            </div>
+            <div class="form-group">
+
+                <input asp-for="Email" class="form-control shadow-sm w-50 mb-5 rounded-pill" />
+
+            </div>
+            <div class="form-group">
+
+                <input asp-for="Textarea" class="form-control shadow-sm w-50 mb-5 rounded-pill" />
+
+            </div>
+            
+            <button type="submit" class=" btn btn-danger control shadow-sm w-50 mb-5 rounded-pill">Save</button>
+        </form>
+    </center>
+</div>

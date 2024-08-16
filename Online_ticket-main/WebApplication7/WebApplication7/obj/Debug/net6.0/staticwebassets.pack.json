@@ -237,6 +237,7 @@
       "PackagePath": "staticwebassets\\fonts\\open-iconic\\open-iconic.woff"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\asp\\Documents\\Asfahan\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\.DS_Store",
       "PackagePath": "staticwebassets\\images\\.DS_Store"
     },
@@ -246,6 +247,13 @@
     },
     {
       "Id": "C:\\Users\\asp\\Documents\\Asfahan\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\about.jpg",
+=======
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\ab_1.jpg",
+      "PackagePath": "staticwebassets\\images\\ab_1.jpg"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\about.jpg",
+>>>>>>> 3a1449702830886577897258edea57e5a825f3ca
       "PackagePath": "staticwebassets\\images\\about.jpg"
     },
     {
@@ -253,7 +261,15 @@
       "PackagePath": "staticwebassets\\images\\banner1.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\asp\\Documents\\Asfahan\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\bg_1.jpg",
+=======
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\bg_1.jpg",
+>>>>>>> 3a1449702830886577897258edea57e5a825f3ca
       "PackagePath": "staticwebassets\\images\\bg_1.jpg"
     },
     {

@@ -8,17 +8,23 @@ using System.Xml.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Reflection.Metadata.Ecma335;
 using WebApplication7.Services;
-
+using Microsoft.EntityFrameworkCore;
+using static WebApplication7.Data.Application;
 
 namespace WebApplication7
 {
 
     public class HomeController : Controller
     {
-        private readonly CategoryService _categoryService;
-        connection conn = new connection();
+		private readonly ApplicationDbContext _context;
+		private readonly CategoryService _categoryService;
 
-    
+        connection conn = new connection();
+        connection2 connect = new connection2();
+
+
+
+
         // Constructor for dependency injection
         public HomeController(CategoryService categoryService)
         {
@@ -37,10 +43,73 @@ namespace WebApplication7
             var categories = _categoryService.GetCategories();
             ViewBag.categories = categories ?? new List<Category>(); // Initialize to an empty list if null
             TempData["name"] = HttpContext.Session.GetString("abc");
+
             return View();
         }
 
-        public IActionResult Header()
+		// Trip request form view
+		public IActionResult TripRequest()
+		{
+			ViewBag.PickupLocations = _context.Locations.ToList();
+			ViewBag.DropoffLocations = _context.Locations.ToList();
+			return View();
+		}
+
+		// Handle form submission for trip requests
+		[HttpPost]
+		public IActionResult SearchTrips(TripRequest request)
+		{
+			// You can add more complex validation and processing here if needed
+
+			// Store search criteria in TempData or ViewData for the list view
+			TempData["PickupLocation"] = request.PickupLocation;
+			TempData["DropoffLocation"] = request.DropoffLocation;
+			TempData["PickupDate"] = request.PickupDate.ToString("yyyy-MM-dd");
+			TempData["DropoffDate"] = request.DropoffDate.ToString("yyyy-MM-dd");
+			TempData["PickupTime"] = request.PickupTime.ToString(@"hh\:mm");
+
+			// Redirect to the list view with the search results
+			return RedirectToAction("List");
+		}
+
+		// List view to display search results
+		public IActionResult List()
+		{
+			// Retrieve search criteria from TempData
+			var pickupLocationName = TempData["PickupLocation"] as string;
+			var dropoffLocationName = TempData["DropoffLocation"] as string;
+			var pickupDate = DateTime.Parse(TempData["PickupDate"] as string);
+			var dropoffDate = DateTime.Parse(TempData["DropoffDate"] as string);
+			var pickupTime = TimeSpan.Parse(TempData["PickupTime"] as string);
+
+			// Fetch the pickup and dropoff locations from the database
+			var pickupLocation = _context.Locations
+				.FirstOrDefault(l => l.Name == pickupLocationName);
+
+			var dropoffLocation = _context.Locations
+				.FirstOrDefault(l => l.Name == dropoffLocationName);
+
+			if (pickupLocation == null || dropoffLocation == null)
+			{
+				// Handle the case where one or both locations are not found
+				ViewBag.Message = "One or both locations were not found.";
+				return View(new List<Trip>()); // Return an empty list or handle as appropriate
+			}
+
+			// Fetch trips based on the location IDs and other search criteria
+			var trips = _context.Trips
+				.Where(t => t.PickupLocationId == pickupLocation.Id
+							&& t.DropoffLocationId == dropoffLocation.Id
+							&& t.PickupDate.Date == pickupDate.Date
+							&& t.DropoffDate.Date == dropoffDate.Date
+							&& t.PickupTime == pickupTime)
+				.ToList();
+
+			return View(trips);
+		}
+
+
+		public IActionResult Header()
         {
             return View();
         }
@@ -56,15 +125,15 @@ namespace WebApplication7
 		{
 			return View();
 		}
-		//[HttpPost]
+		[HttpPost]
        public IActionResult Contact(string username , string email , string textarea )
        {
 			Contact data = new Contact(0, username, email,textarea);
-			conn.contact_us.Add(data);
-			conn.SaveChanges();
+			connect.contact_us.Add(data);
+			connect.SaveChanges();
 
 		return View();
-      }
+     }
 		
 		public IActionResult Confirm(int code)
 		{

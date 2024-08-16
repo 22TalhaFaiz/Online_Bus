@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "K3KcWyOJLtq6giUS8MSrNqq5KkoK6JkUGUdjIt/JBE8=",
+=======
+  "Hash": "6ZQwfH3bvcLRja0zxODeUMOYLwhN8eizGraO+1egE18=",
+>>>>>>> 3a1449702830886577897258edea57e5a825f3ca
   "Source": "WebApplication7",
   "BasePath": "_content/WebApplication7",
   "Mode": "Default",
@@ -1037,7 +1041,30 @@
       "OriginalItemSpec": "wwwroot\\fonts\\open-iconic\\open-iconic.woff"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\asp\\Documents\\Asfahan\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\.DS_Store",
+=======
+      "Identity": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\ab_1.jpg",
+      "SourceId": "WebApplication7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\",
+      "BasePath": "_content/WebApplication7",
+      "RelativePath": "images/ab_1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ab_1.jpg"
+    },
+    {
+      "Identity": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\about.jpg",
+>>>>>>> 3a1449702830886577897258edea57e5a825f3ca
       "SourceId": "WebApplication7",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asp\\Documents\\Asfahan\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\",
@@ -1105,7 +1132,30 @@
       "OriginalItemSpec": "wwwroot\\images\\banner1.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\asp\\Documents\\Asfahan\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\bg_1.jpg",
+=======
+      "Identity": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\banner2.jpg",
+      "SourceId": "WebApplication7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\",
+      "BasePath": "_content/WebApplication7",
+      "RelativePath": "images/banner2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner2.jpg"
+    },
+    {
+      "Identity": "C:\\project\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\images\\bg_1.jpg",
+>>>>>>> 3a1449702830886577897258edea57e5a825f3ca
       "SourceId": "WebApplication7",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asp\\Documents\\Asfahan\\Online_Bus\\Online_ticket-main\\WebApplication7\\WebApplication7\\wwwroot\\",
