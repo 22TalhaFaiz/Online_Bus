@@ -20,8 +20,8 @@ namespace WebApplication7.Models
 
         public DbSet<Users> Users { get; set; }
         public DbSet<Location> Locations { get; set; }
-        public DbSet<Location> Buses { get; set; }
-        public DbSet<WebApplication7.Models.Buses>? Buses_1 { get; set; }
+        public DbSet<Buses> Buses { get; set; }
+       
 
 
 

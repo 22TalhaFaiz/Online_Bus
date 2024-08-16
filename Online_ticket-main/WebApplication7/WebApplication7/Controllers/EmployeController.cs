@@ -162,6 +162,14 @@ namespace WebApplication7.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult Addbus(string bus_number , int capacity , string model , string Operator)
+        {
+            Buses data = new Buses(0, bus_number, capacity, model, Operator);
+            _conn.Buses.Add(data);
+            _conn.SaveChanges();
 
+            return View();
+        }
     }
 }

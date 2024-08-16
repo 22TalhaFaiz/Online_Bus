@@ -19,6 +19,7 @@ CREATE TABLE Buses (
     model VARCHAR(50),
     operator VARCHAR(50)
 );
+Select * from Buses;
 CREATE TABLE Card (
     card_id INT PRIMARY KEY IDENTITY(1,1),     
     name NVARCHAR(100) NOT NULL,                
@@ -50,10 +51,10 @@ CREATE TABLE Schedules (
     FOREIGN KEY (bus_id) REFERENCES Buses(bus_id),
     FOREIGN KEY (route_id) REFERENCES Route(route_id),
 	Foreign Key (location_id) References Locations(Location_id)
+
 );
 
-drop table Schedules;
-
+select * from Schedules;
 CREATE TABLE Passengers (
     passenger_id INT PRIMARY KEY identity(1,1),
     Passenger_name VARCHAR(100) NOT NULL,
@@ -129,6 +130,7 @@ CREATE TABLE Locations (
 );
 
 
+select * from Locations;
 CREATE TABLE Trips (
     Id INT PRIMARY KEY IDENTITY(1,1),
     PickupLocationId INT FOREIGN KEY REFERENCES Locations(Location_id),
@@ -149,6 +151,6 @@ PickUpTime Time,
 
 );
 
-Insert into TripRequest Values ('Test','Test','','','')
+Insert into TripRequest Values ('Test','Test','','','');
 
 
