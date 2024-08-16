@@ -157,6 +157,10 @@ namespace WebApplication7.Controllers
             return View(users);
         }
 
+        public IActionResult Addbus()
+        {
+            return View();
+        }
 
 
     }

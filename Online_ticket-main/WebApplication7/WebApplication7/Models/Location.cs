@@ -5,7 +5,7 @@ namespace WebApplication7.Models
     public class Location
     {
         [Key]
-        public int Id { get; set; }
+        public int Location_id{ get; set; }
 
         [Required]
         [StringLength(255)]
