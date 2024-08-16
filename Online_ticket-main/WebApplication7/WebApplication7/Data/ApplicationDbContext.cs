@@ -19,6 +19,7 @@ namespace WebApplication7.Data
 
             public DbSet<Location> Locations { get; set; }
             public DbSet<Trip> Trips { get; set; }
+            public DbSet<Contact> contact_us { get; set; }
 
             // Optionally configure entity relationships and constraints
             protected override void OnModelCreating(ModelBuilder modelBuilder)

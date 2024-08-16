@@ -43,12 +43,16 @@ CREATE TABLE Schedules (
     schedule_id INT PRIMARY KEY identity(1,1),
     bus_id INT,
     route_id INT,
+	location_id int,
     departure_time TIME NOT NULL,
     arrival_time TIME NOT NULL,
     date DATE NOT NULL,
     FOREIGN KEY (bus_id) REFERENCES Buses(bus_id),
-    FOREIGN KEY (route_id) REFERENCES Route(route_id)
+    FOREIGN KEY (route_id) REFERENCES Route(route_id),
+	Foreign Key (location_id) References Locations(Id)
 );
+
+drop table Schedules
 
 CREATE TABLE Passengers (
     passenger_id INT PRIMARY KEY identity(1,1),
@@ -120,9 +124,10 @@ select * from contact_us;
 
 
 CREATE TABLE Locations (
-    Id INT PRIMARY KEY IDENTITY(1,1),
+    Location_id INT PRIMARY KEY IDENTITY(1,1),
     Name NVARCHAR(255) NOT NULL
 );
+
 
 CREATE TABLE Trips (
     Id INT PRIMARY KEY IDENTITY(1,1),
@@ -132,4 +137,18 @@ CREATE TABLE Trips (
     DropoffDate DATE NOT NULL,
     PickupTime TIME NOT NULL
 );
+
+Create Table TripRequest (
+PickupLocation varchar(255),
+DropoffLocation varchar(255),
+PickupDate Date,
+DropoffDate Date,
+PickUpTime Time,
+
+
+
+)
+
+Insert into TripRequest Values ('Test','Test','','','')
+
 
