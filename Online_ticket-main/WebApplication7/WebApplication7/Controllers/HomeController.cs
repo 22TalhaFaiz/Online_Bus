@@ -133,7 +133,7 @@ namespace WebApplication7
         [HttpPost]
         public IActionResult Signup(string username, string email, string contact, string password)
         {
-            Users data = new Users(0, username, email, contact, password, 0);
+            Users data = new Users(0, username, email, contact, password, 3);
             conn.Users.Add(data);
             conn.SaveChanges();
 
@@ -162,7 +162,7 @@ namespace WebApplication7
             mail1.IsBodyHtml = true;
 
             var smtp = new SmtpClient("smtp.gmail.com", 587);
-            smtp.Credentials = new NetworkCredential("muhammadasfahan689@gmail.com", "zjiv xxvb zvww erlx");
+            smtp.Credentials = new NetworkCredential("muhammadasfahan689@gmail.com", "jdbu yrqg wcdz hnnk");
             smtp.EnableSsl = true;
             smtp.Send(mail1);
         }
