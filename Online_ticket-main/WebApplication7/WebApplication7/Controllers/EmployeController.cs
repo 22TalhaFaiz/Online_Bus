@@ -163,13 +163,47 @@ namespace WebApplication7.Controllers
         }
 
         [HttpPost]
-        public IActionResult Addbus(string bus_number , int capacity , string model , string Operator)
+        public IActionResult Addbus(string bus_number, int capacity, string model, string Operator)
         {
-            Buses data = new Buses(0, bus_number, capacity, model, Operator);
+            Buses data = new Buses(0, bus_number, capacity, model,Operator);
             _conn.Buses.Add(data);
             _conn.SaveChanges();
 
-            return View();
+            
+            return RedirectToAction("Addbus_view");
+
+        }
+        public IActionResult Addbus_view()
+        {
+
+            var users = _conn.Buses.ToList();
+            return View(users);
+            
+        }
+
+        public IActionResult BusEdit(int id)
+        {
+
+            var user = _conn.Buses.FirstOrDefault(a => a.Bus_id == id);// Example for fetching user
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+
+        }
+        [HttpPost]
+        public IActionResult BusEdit( int id,string bus_number , int capacity , string model , string Operator)
+        {
+
+            var user = _conn.Buses.FirstOrDefault(a => a.Bus_id == id);// Example for fetching user
+            user.Bus_number = bus_number;
+            user.Capacity = capacity;
+            user.Model = model;
+            user.Operator = Operator;
+
+            _conn.SaveChanges();
+            return RedirectToAction("Addbus_View");
         }
     }
 }

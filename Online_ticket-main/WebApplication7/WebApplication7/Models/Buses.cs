@@ -11,14 +11,17 @@ namespace WebApplication7.Models
 		public int Capacity { get; set; }
 		public string Model { get; set; }
 		public string Operator { get; set;}
+       
 
-		public Buses (int bus_id, string bus_number, int capacity, string model, string Operator)
+
+        public Buses (int bus_id, string bus_number, int capacity, string model, string Operator)
 		{
 			Bus_id = bus_id;
 			Bus_number = bus_number;
 			Capacity = capacity;
 			Model = model;
 			this.Operator = Operator;
+		
 		}
 	}
 

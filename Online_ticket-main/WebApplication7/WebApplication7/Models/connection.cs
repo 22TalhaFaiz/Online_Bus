@@ -10,11 +10,11 @@ namespace WebApplication7.Models
         {
             base.OnConfiguring(optionsBuilder);
 
-            optionsBuilder.UseSqlServer("Server=DESKTOP-KL71KR7\\SQLEXPRESS;Database= online_bus;Integrated Security=true");
-           // optionsBuilder.UseSqlServer("Server=.;Database=online_bus;User Id=sa;password=aptech; TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-KL71KR7\\SQLEXPRESS;Database= online_buses;Integrated Security=true");
+           // optionsBuilder.UseSqlServer("Server=.;Database=online_buses;User Id=sa;password=aptech; TrustServerCertificate=True;");
 
-            //optionsBuilder.UseSqlServer("Server=DESKTOP-KL71KR7\\SQLEXPRESS;Database= online_bus;Integrated Security=true");
-            //optionsBuilder.UseSqlServer("Server=.;Database=online_bus;User Id=sa;password=aptech; TrustServerCertificate=True;");
+            //optionsBuilder.UseSqlServer("Server=DESKTOP-KL71KR7\\SQLEXPRESS;Database= online_buses;Integrated Security=true");
+            //optionsBuilder.UseSqlServer("Server=.;Database=online_buses;User Id=sa;password=aptech; TrustServerCertificate=True;");
 
         }
 
@@ -22,6 +22,8 @@ namespace WebApplication7.Models
         public DbSet<Location> Locations { get; set; }
         public DbSet<Buses> Buses { get; set; }
        
+
+
 
 
 

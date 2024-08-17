@@ -1,0 +1,33 @@
+﻿@model WebApplication7.Models.Buses
+
+
+<div class="container bg-light mb-5 mt-5 shadow-lg w-50 rounded">
+
+    <center>
+        <form asp-action="BusEdit" method="post">
+            <h1 class="text-center mb-5 mt-5 text-dark">Update <sapn class="text-danger">Bus</sapn></h1>
+            <input type="hidden" asp-for="Bus_id" />
+            <div class="form-group">
+
+                <input asp-for="Bus_number" class="form-control shadow-sm w-50 mb-5 rounded-pill" />
+
+            </div>
+            <div class="form-group">
+
+                <input asp-for="Capacity" class="form-control shadow-sm w-50 mb-5 rounded-pill" />
+
+            </div>
+            <div class="form-group">
+
+                <input asp-for="Model" class="form-control shadow-sm w-50 mb-5 rounded-pill" />
+
+            </div>
+            <div class="form-group">
+
+                <input asp-for="Operator" class="form-control shadow-sm w-50 mb-5 rounded-pill" />
+
+            </div>
+            <button type="submit" class=" btn btn-danger control shadow-sm w-50 mb-5 rounded-pill">Save</button>
+        </form>
+    </center>
+</div>

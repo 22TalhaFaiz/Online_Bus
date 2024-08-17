@@ -9,11 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Configure DbContext with SQL Server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
-  //  options.UseSqlServer("Server=.;Database=online_bus;User Id=sa;password=aptech; TrustServerCertificate=True;"));
-//options.UseSqlServer("Server=DESKTOP-KL71KR7\\SQLEXPRESS;Database= online_bus;Integrated Security=true"));
+  //  options.UseSqlServer("Server=.;Database=online_buses;User Id=sa;password=aptech; TrustServerCertificate=True;"));
+//options.UseSqlServer("Server=DESKTOP-KL71KR7\\SQLEXPRESS;Database= online_buses;Integrated Security=true"));
 
-//  options.UseSqlServer("Server=.;Database=online_bus;User Id=sa;password=aptech; TrustServerCertificate=True;"));
-options.UseSqlServer("Server=DESKTOP-KL71KR7\\SQLEXPRESS;Database= online_bus;Integrated Security=true"));
+//  options.UseSqlServer("Server=.;Database=online_buses;User Id=sa;password=aptech; TrustServerCertificate=True;"));
+options.UseSqlServer("Server=DESKTOP-KL71KR7\\SQLEXPRESS;Database= online_buses;Integrated Security=true"));
 
 
 
