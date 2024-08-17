@@ -203,7 +203,19 @@ namespace WebApplication7.Controllers
             user.Operator = Operator;
 
             _conn.SaveChanges();
-            return RedirectToAction("Addbus_View");
+            return RedirectToAction("Addbus_view");
         }
+
+
+        public IActionResult BusDelete(int id)
+        {
+            var delete = _conn.Buses.FirstOrDefault(a => a.Bus_id == id);// Example for fetching user
+
+            _conn.Buses.Remove(delete);
+            _conn.SaveChanges();
+            return RedirectToAction("Addbus_view");
+
+        }
+
     }
 }
