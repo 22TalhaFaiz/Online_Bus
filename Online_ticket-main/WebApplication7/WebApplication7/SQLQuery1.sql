@@ -12,7 +12,7 @@ insert into   categories values
 
 select * from categories;
 
-CREATE TABLE Buses (
+Alter TABLE Buses (
     bus_id INT PRIMARY KEY identity(1,1),
     bus_number VARCHAR(10) NOT NULL,
     capacity INT NOT NULL,
@@ -20,7 +20,10 @@ CREATE TABLE Buses (
     operator VARCHAR(50),
 	
 );
+ALTER TABLE Buses
+ADD bus_image varchar(255);
 Select * from Buses;
+
 CREATE TABLE Card (
     card_id INT PRIMARY KEY IDENTITY(1,1),     
     name NVARCHAR(100) NOT NULL,                
@@ -124,6 +127,7 @@ textarea varchar(200),
 );
 TRUNCATE table contact_us ;
 select * from contact_us;
+TRUNCATE table Buses ;
 
 
 CREATE TABLE Locations (
