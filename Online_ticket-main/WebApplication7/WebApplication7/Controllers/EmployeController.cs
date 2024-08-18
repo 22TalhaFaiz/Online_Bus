@@ -163,13 +163,39 @@ namespace WebApplication7.Controllers
         }
 
         [HttpPost]
-        public IActionResult Addbus(string bus_number, int capacity, string model, string Operator)
+        public IActionResult Addbus(string bus_number, int capacity, string model, string Operator ,IFormCollection bus_image)
         {
             Buses data = new Buses(0, bus_number, capacity, model,Operator);
             _conn.Buses.Add(data);
             _conn.SaveChanges();
+            if (bus_image != null)
+            {
+                foreach (var image in Request.Form.Files)
+                {
+                    var imagename = $"{Guid.NewGuid()}_{image.FileName}";
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imagename);
 
-            
+                    using (FileStream copy = new FileStream(path, FileMode.Create))
+                    {
+                        image.CopyTo(copy);
+
+                    }
+
+                    var images = new Buses
+                    {
+                        image = imagename,
+                        Bus_id = data.Bus_id
+
+                    };
+
+                    _conn.Buses.Add(images);
+                    _conn.SaveChanges();
+
+                }
+
+            }
+
+
             return RedirectToAction("Addbus_view");
 
         }

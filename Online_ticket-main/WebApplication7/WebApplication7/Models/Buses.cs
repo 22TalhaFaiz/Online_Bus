@@ -11,7 +11,9 @@ namespace WebApplication7.Models
 		public int Capacity { get; set; }
 		public string Model { get; set; }
 		public string Operator { get; set;}
-       
+        public string Bus_image { get; set; }
+
+
 
 
         public Buses (int bus_id, string bus_number, int capacity, string model, string Operator)
@@ -21,9 +23,11 @@ namespace WebApplication7.Models
 			Capacity = capacity;
 			Model = model;
 			this.Operator = Operator;
-		
-		}
-	}
+            Operator = Operator;
+
+
+        }
+    }
 
 	
 	}
