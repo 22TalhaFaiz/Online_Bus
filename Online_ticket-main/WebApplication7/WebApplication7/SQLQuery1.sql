@@ -59,6 +59,7 @@ CREATE TABLE Schedules (
     departure_time TIME NOT NULL,
     arrival_time TIME NOT NULL,
     date DATE NOT NULL,
+	Price varchar(200),
     FOREIGN KEY (bus_id) REFERENCES Buses(bus_id),
     FOREIGN KEY (route_id) REFERENCES Route(route_id),
 	Foreign Key (location_id) References Locations(Location_id)
@@ -153,6 +154,6 @@ select * from Locations;
 
 
 
-insert into Locations values ('Test')
+insert into Locations values ('Pakistan')
 
 

@@ -1,13 +1,14 @@
 ﻿@model IEnumerable<dynamic>
-@Html.Partial("Header.cshtml");
 
-@{
-    ViewBag.Title = "Available Buses";
-    Layout = "/Views/Shared/_Layout.cshtml";
+<br><br><br>
+<h1 class="text-center text-warning mt-5 mb-5">Available <span class="text-dark">Buses</span></h1>
+<div id="page-wrapper">
+    <div id="page-inner">
+        <div class="row">
+            <div class="col-md-12">
 
-}
 
-<h2>Available Buses</h2>
+
 
 @if (Model.Any())
 {
@@ -49,3 +50,13 @@ else
 {
     <p>No buses available for the selected criteria.</p>
 }
+
+            </div>
+            <!-- /. ROW  -->
+            <hr />
+        </div>
+        <!-- /. PAGE INNER  -->
+    </div>
+    <!-- /. PAGE WRAPPER  -->
+
+

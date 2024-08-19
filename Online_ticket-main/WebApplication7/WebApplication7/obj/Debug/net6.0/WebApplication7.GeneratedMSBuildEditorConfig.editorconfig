@@ -9,187 +9,185 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplication7
 build_property.RootNamespace = WebApplication7
-build_property.ProjectDir = C:\Users\Tacti\OneDrive\Desktop\Online_Bus\Online_ticket-main\WebApplication7\WebApplication7\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\asp\Documents\Asfahan\Online_Bus\Online_ticket-main\WebApplication7\WebApplication7\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Tacti\OneDrive\Desktop\Online_Bus\Online_ticket-main\WebApplication7\WebApplication7
+build_property.MSBuildProjectDirectory = C:\Users\asp\Documents\Asfahan\Online_Bus\Online_ticket-main\WebApplication7\WebApplication7
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/AdminHeader.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/AdminHeader.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkbWluSGVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/AdminIndex.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/AdminIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkbWluSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/AdminLogin.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/AdminLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkbWluTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/AdminLogout.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/AdminLogout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkbWluTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/ContactDelete.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/ContactDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXENvbnRhY3REZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/ContactEdit.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/ContactEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXENvbnRhY3RFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/ContactView.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/ContactView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXENvbnRhY3RWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/Delete.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/Edit.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/View.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Dashboard/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/Addbus.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/Addbus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxBZGRidXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/Addbus_view.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/Addbus_view.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxBZGRidXNfdmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/BusDelete.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/BusDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxCdXNEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/BusEdit.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/BusEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxCdXNFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/ContactDelete.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/ContactDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxDb250YWN0RGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/ContactEdit.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/ContactEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxDb250YWN0RWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/ContactView.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/ContactView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxDb250YWN0Vmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/Delete.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/Edit.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/EmployeHeader.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/EmployeHeader.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxFbXBsb3llSGVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/EmployeIndex.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/EmployeIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxFbXBsb3llSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/EmployeLogin.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/EmployeLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxFbXBsb3llTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/EmployeLogout.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/EmployeLogout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxFbXBsb3llTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/View.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Employe/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVxWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/About.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/AvailableBuses.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/AvailableBuses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBdmFpbGFibGVCdXNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Confirm.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Confirm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25maXJtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Contact.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Footer.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Header.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Index.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/List.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Login.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/NoResults.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/NoResults.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb1Jlc3VsdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Privacy.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/SearchTrips.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/SearchTrips.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2hUcmlwcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Signup.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Transport.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Home/Transport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFuc3BvcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Shared/Error.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Shared/_Layout.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/_ViewImports.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/_ViewStart.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tacti/OneDrive/Desktop/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Shared/_layout2.cshtml]
+[C:/Users/asp/Documents/Asfahan/Online_Bus/Online_ticket-main/WebApplication7/WebApplication7/Views/Shared/_layout2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9sYXlvdXQyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-r6471phm8t
