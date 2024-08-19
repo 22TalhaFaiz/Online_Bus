@@ -43,14 +43,48 @@ namespace WebApplication7
             var categories = _categoryService.GetCategories();
             ViewBag.categories = categories ?? new List<Category>(); // Initialize to an empty list if null
             TempData["name"] = HttpContext.Session.GetString("abc");
-            var data = conn.Locations.ToList();
+            var data = conn.Route.ToList();
 
             return View(data);
         }
 
-		
 
-		public IActionResult Header()
+        [HttpPost]
+        public IActionResult SearchTrips(int PickupLocation, int DropoffLocation, DateTime BookDate)
+        {
+           
+
+            var availableBuses = conn.Schedules
+                .Include(s => s.Bus)
+                .Include(s => s.Route)
+                .Where(s => s.route_id == PickupLocation
+                            && s.route_id == DropoffLocation     
+                            && s.date == BookDate)
+                .Select(s => new
+                {
+                    s.schedule_id,
+                    s.bus_id,
+                    Operator = s.Bus.Operator,
+                    Route = s.Route.Origin + " to " + s.Route.Destination,
+                    s.Departure_time,
+                    s.Arrival_time,
+                    s.date,
+                    s.Price
+                })
+                .ToList();
+
+            if (!availableBuses.Any())
+            {
+                TempData["Message"] = "No buses available for the selected criteria.";
+                return RedirectToAction("NoResults");
+            }
+
+            return View("AvailableBuses", availableBuses);
+        }
+
+
+
+        public IActionResult Header()
         {
             return View();
         }

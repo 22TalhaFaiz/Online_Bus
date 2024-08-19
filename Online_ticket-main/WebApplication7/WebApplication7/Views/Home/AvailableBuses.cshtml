@@ -1,0 +1,51 @@
+﻿@model IEnumerable<dynamic>
+@Html.Partial("Header.cshtml");
+
+@{
+    ViewBag.Title = "Available Buses";
+    Layout = "/Views/Shared/_Layout.cshtml";
+
+}
+
+<h2>Available Buses</h2>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Bus Operator</th>
+                <th>Route</th>
+                <th>Departure Time</th>
+                <th>Arrival Time</th>
+                <th>Date</th>
+                <th>Price</th>
+                <th>Book Now</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var bus in Model)
+            {
+                <tr>
+                    <td>@bus.Operator</td>
+                    <td>@bus.Route</td>
+                    <td>@bus.Departure_time</td>
+                    <td>@bus.Arrival_time</td>
+                    <td>@bus.date</td>
+                    <td>@bus.Price</td>
+
+                    <td>
+                        <form action="/Home/BookNow" method="post">
+                            <input type="hidden" name="schedule_id" value="@bus.schedule_id" />
+                            <input type="submit" value="Book Now" class="btn btn-primary" />
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No buses available for the selected criteria.</p>
+}

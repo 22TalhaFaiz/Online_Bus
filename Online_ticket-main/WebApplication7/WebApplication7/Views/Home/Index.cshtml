@@ -1,4 +1,4 @@
-﻿@model IEnumerable<WebApplication7.Models.Location>
+﻿@model IEnumerable<WebApplication7.Models.Route>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,42 +30,34 @@
                     ViewBag.Title = "Make your trip";
                 }
 
-                 <form action="/Trip/SearchTrips" method="post" class="request-form ftco-animate">
+                <form action="/Home/SearchTrips" method="post" class="request-form ftco-animate">
                     <h2>Make your trip</h2>
                     <div class="form-group">
-                        <label for="pickupLocation" class="label">Pick-up location</label>
-                        <select id="" name="PickupLocation" class="form-control">
+                        <label for="pickupLocation" class="label">Origin</label>
+                        <select id="pickupLocation" name="PickupLocation" class="form-control">
                          @foreach(var items in Model)
                             {
-                                <option>@items.Name</option>
+                                <option value="@items.route_id">@items.Origin</option>
                             }
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="dropoffLocation" class="label">Drop-off location</label>
+                        <label for="dropoffLocation" class="label">Destination</label>
                         <select id="dropoffLocation" name="DropoffLocation" class="form-control">
                             @foreach (var items in Model)
                             {
-                                <option value="@items.Location_id">@items.Name</option>
+                                <option value="@items.route_id">@items.Destination</option>
                             }
                         </select>
                     </div>
                     <div class="d-flex">
                         <div class="form-group mr-2">
-                            <label for="book_pick_date" class="label">Pick-up date</label>
-                            <input type="text" class="form-control" id="book_pick_date" name="PickupDate" placeholder="Date">
+                            <label for="book_pick_date" class="label">Date</label>
+                            <input type="date" class="form-control" id="book_date" name="BookDate" placeholder="Date">
                         </div>
-                      @*   <div class="form-group ml-2">
-                            <label for="book_off_date" class="label">Drop-off date</label>
-                            <input type="text" class="form-control" id="book_off_date" name="DropoffDate" placeholder="Date">
-                        </div>
-                    </div>
+                    
                     <div class="form-group">
-                        <label for="time_pick" class="label">Pick-up time</label>
-                        <input type="text" class="form-control" id="time_pick" name="PickupTime" placeholder="Time">
-                    </div> *@
-                    <div class="form-group">
-                        <input type="submit" value="Search Vehicle" class="btn btn-primary py-3 px-4">
+                        <input type="submit" value="Search Bus" class="btn btn-primary py-3 px-4">
                     </div>
                 </form> 
 

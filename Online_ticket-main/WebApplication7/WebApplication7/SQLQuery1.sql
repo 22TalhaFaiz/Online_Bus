@@ -1,5 +1,5 @@
 create database online_buses;
-use online_buses; 
+use online_buses;
 
 CREATE TABLE categories(
 Cat_id int primary key identity(1,1),
@@ -12,14 +12,16 @@ insert into   categories values
 
 select * from categories;
 
-Alter TABLE Buses (
+CREATE TABLE Buses (
     bus_id INT PRIMARY KEY identity(1,1),
     bus_number VARCHAR(10) NOT NULL,
+	bus_image varchar(255),
     capacity INT NOT NULL,
     model VARCHAR(50),
     operator VARCHAR(50),
 	
 );
+insert into Buses values (001,'',64,'Daewoo','Daewoo_blu')
 ALTER TABLE Buses
 ADD bus_image varchar(255);
 Select * from Buses;
@@ -43,6 +45,11 @@ CREATE TABLE Route (
     destination VARCHAR(50) NOT NULL,
     distance INT NOT NULL
 );
+select * from Route
+INSERT INTO Route (origin, destination, distance)
+VALUES ('Karachi', 'Islamabad', 1400);
+INSERT INTO Route (origin, destination, distance)
+VALUES ('Karachi','Lahore',1200); 
 
 CREATE TABLE Schedules (
     schedule_id INT PRIMARY KEY identity(1,1),
@@ -57,6 +64,12 @@ CREATE TABLE Schedules (
 	Foreign Key (location_id) References Locations(Location_id)
 
 );
+
+ALTER TABLE Schedules
+ADD Price varchar(255);
+truncate table schedules
+
+insert into Schedules values (1,1,1,'08:00:00','22:00:00','2024-08-21','7000')
 
 select * from Schedules;
 CREATE TABLE Passengers (
@@ -130,33 +143,16 @@ select * from contact_us;
 TRUNCATE table Buses ;
 
 
-CREATE TABLE Locations (
+Create TABLE Locations (
     Location_id INT PRIMARY KEY IDENTITY(1,1),
     Name NVARCHAR(255) NOT NULL
 );
 
 
 select * from Locations;
-CREATE TABLE Trips (
-    Id INT PRIMARY KEY IDENTITY(1,1),
-    PickupLocationId INT FOREIGN KEY REFERENCES Locations(Location_id),
-    DropoffLocationId INT FOREIGN KEY REFERENCES Locations(Location_id),
-    PickupDate DATE NOT NULL,
-    DropoffDate DATE NOT NULL,
-    PickupTime TIME NOT NULL
-);
-
-Create Table TripRequest (
-PickupLocation varchar(255),
-DropoffLocation varchar(255),
-PickupDate Date,
-DropoffDate Date,
-PickUpTime Time,
 
 
 
-);
-
-Insert into TripRequest Values ('Test','Test','','','');
+insert into Locations values ('Test')
 
 
